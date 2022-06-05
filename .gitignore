@@ -1,0 +1,5 @@
+/.editorconfig
+/.idea
+/.nuxt
+/.vscode
+/node_modules
