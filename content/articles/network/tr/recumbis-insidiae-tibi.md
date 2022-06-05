@@ -3,7 +3,8 @@ title: "Recumbis insidiae tibi"
 description: "Lorem markdownum auctor illa Phaestiadas vidit perdiderat violentus saetae\nnutrix prius ab. Videns referitur tamen, dixit faciendis metu: oculis auras\nStygiae pedibusque mentem frequentat facies unum! Excessere despectus tegit!"
 categories:
   - "network"
-tags: []
+tags:
+  - "network"
 slug: "recumbis-insidiae-tibi"
 ID: "4c198442-d56a-4f77-a18b-6444561041df"
 cover: "cover1.jpg"
