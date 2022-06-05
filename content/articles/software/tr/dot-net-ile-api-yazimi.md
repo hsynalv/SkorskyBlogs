@@ -5,7 +5,8 @@ description: "Asp.NET ile API yazımı"
 tags:
   - "dotnet"
 slug: "dot-net-ile-api-yazimi"
-categories: []
+categories:
+  - "c-sharp"
 date: "2022-06-04 12:00"
 cover: "cover4.jpg"
 createdAt: 1654441053775
