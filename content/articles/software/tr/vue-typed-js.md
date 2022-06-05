@@ -2,7 +2,8 @@
 title: "Vue Typed Js"
 ID: "718941a6-01ae-4695-96f7-99a51b0f7c24"
 description: "How to use vue typed js"
-categories: []
+categories:
+  - "software"
 slug: "vue-typed-js"
 tags: []
 date: "2022-06-06 12:00"
