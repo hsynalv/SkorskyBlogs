@@ -4,6 +4,7 @@ categories:
   - "network"
 tags:
   - "router"
+  - "switch"
 ID: "8e013062-29c9-44d9-9e73-db8b11e82982"
 description: "Animus aestusque faveant securi Andraemone"
 slug: "animus-aestusque-faveant-securi-andraemone"
