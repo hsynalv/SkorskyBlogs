@@ -5,7 +5,8 @@ slug: "regalia-supplice-galeae-in-terris-quoque"
 description: "Regalia supplice galeae in terris quoque"
 categories:
   - "dotnet"
-tags: []
+tags:
+  - "dotnet"
 date: "2022-06-06 12:00"
 cover: "cover7.jpg"
 createdAt: 1654447211377
