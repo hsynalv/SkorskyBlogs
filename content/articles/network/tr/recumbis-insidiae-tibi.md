@@ -5,6 +5,7 @@ categories:
   - "network"
 tags:
   - "network"
+  - "user-guide"
 slug: "recumbis-insidiae-tibi"
 ID: "4c198442-d56a-4f77-a18b-6444561041df"
 cover: "cover1.jpg"
