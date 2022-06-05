@@ -3,7 +3,8 @@ title: "Regalia supplice galeae in terris quoque"
 ID: "3ed5dda6-0a53-42cd-9ae6-d0af744fa55d"
 slug: "regalia-supplice-galeae-in-terris-quoque"
 description: "Regalia supplice galeae in terris quoque"
-categories: []
+categories:
+  - "dotnet"
 tags: []
 date: "2022-06-06 12:00"
 cover: "cover7.jpg"
