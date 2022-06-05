@@ -2,7 +2,8 @@
 ID: "18e89963-b499-4b6f-9be7-6def00debd3f"
 title: "C# Asp.NET"
 description: "C# Asp.NET"
-tags: []
+tags:
+  - "dotnet"
 slug: "c-sharp-dotnet"
 categories: []
 date: "2022-06-04 12:00"
