@@ -6,7 +6,7 @@ tags:
   - "dotnet"
 slug: "dot-net-ile-api-yazimi"
 categories:
-  - "c-sharp"
+  - "software"
 date: "2022-06-04 12:00"
 cover: "cover4.jpg"
 createdAt: 1654441053775

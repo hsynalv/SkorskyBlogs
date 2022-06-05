@@ -4,7 +4,7 @@ ID: "3ed5dda6-0a53-42cd-9ae6-d0af744fa55d"
 slug: "regalia-supplice-galeae-in-terris-quoque"
 description: "Regalia supplice galeae in terris quoque"
 categories:
-  - "dotnet"
+  - "software"
 tags:
   - "dotnet"
   - "user-guide"

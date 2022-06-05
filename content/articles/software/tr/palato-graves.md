@@ -4,7 +4,7 @@ ID: "45aa594a-0e7c-4155-86f5-66df18873f53"
 slug: "palato-graves"
 description: "Palato graves"
 categories:
-  - "c-sharp"
+  - "software"
 tags:
   - "user-guide"
   - "dotnet"
