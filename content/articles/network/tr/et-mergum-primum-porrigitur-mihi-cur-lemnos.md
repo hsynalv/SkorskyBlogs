@@ -5,7 +5,8 @@ tags:
   - "arp-spoof-defend"
   - "cyber-security"
 slug: "et-mergum-primum-porrigitur-mihi-cur-lemnos"
-categories: []
+categories:
+  - "network"
 title: "Et mergum primum porrigitur mihi cur Lemnos"
 cover: "cover4.jpg"
 date: "2022-06-07 12:00"
