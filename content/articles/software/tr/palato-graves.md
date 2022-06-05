@@ -4,7 +4,8 @@ ID: "45aa594a-0e7c-4155-86f5-66df18873f53"
 slug: "palato-graves"
 description: "Palato graves"
 categories: []
-tags: []
+tags:
+  - "user-guide"
 date: "2022-06-06 12:00"
 cover: "cover6.jpg"
 createdAt: 1654445987250
