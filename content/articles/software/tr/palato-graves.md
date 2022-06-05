@@ -6,6 +6,7 @@ description: "Palato graves"
 categories: []
 tags:
   - "user-guide"
+  - "dotnet"
 date: "2022-06-06 12:00"
 cover: "cover6.jpg"
 createdAt: 1654445987250
