@@ -10,7 +10,7 @@ const siteMetaInfo = {
     "Yaptığım şeyler, çalışmak, üretmek ve her gün daha fazla öğrenmek...",
   language: "tr-TR",
   theme: "dark", // system, dark or light
-  siteUrl: "https://hhsynalv.com/",
+  siteUrl: "https://skorskyblog.netlify.app/",
   siteRepo: "#",
   image: "~/static/author.png",
   github: "https://github.com/hsynalv",

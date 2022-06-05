@@ -27,12 +27,12 @@ export default {
       { hid: "og:type", name: "og:type", content: "website" },
       { hid: "og:title", name: "og:title", content: "Eventually coding" },
       { hid: "og:description", name: "og:description", content: "Yaptığım şeyler, çalışmak, üretmek ve her gün daha fazla öğrenmek..." },
-      { hid: "og:url", name: "og:url", content: "http://localhost:3000/" },
+      { hid: "og:url", name: "og:url", content: "https://skorskyblog.netlify.app/" },
       { name: "og:site_name", content: "Skorsky Blog" },
       { name: "og:locale", content: "tr_TR" },
    ],
     link: [
-      { rel: "alternate", type: "application/rss+xml", href: "http://localhost:3000/" },
+      { rel: "alternate", type: "application/rss+xml", href: "https://skorskyblog.netlify.app/" },
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
 
     ],
@@ -67,7 +67,7 @@ export default {
     '@nuxtjs/feed',
     '@nuxtjs/sitemap'],
   sitemap: {
-    hostname: 'http://localhost:3000/',
+    hostname: 'https://skorskyblog.netlify.app/',
     gzip: true,
     routes: createSitemapRoutes,
     exclude: ["/blog"]
@@ -78,7 +78,7 @@ export default {
       path: 'rss.xml', // The route to your feed.
       // eslint-disable-next-line require-await
       async create(feed) {
-        const baseUrlArticles = 'http://localhost:3000/';
+        const baseUrlArticles = 'https://skorskyblog.netlify.app/';
         const baseLinkFeedArticles = '/feed/'
 
         feed.options = {
