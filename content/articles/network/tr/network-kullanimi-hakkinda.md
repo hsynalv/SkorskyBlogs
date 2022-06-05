@@ -1,7 +1,8 @@
 ---
 title: "Network Kullanımı Hakkında"
 description: "Network Kullanımı Hakkında"
-categories: []
+categories:
+  - "network"
 tags: []
 slug: "network-kullanimi-hakkinda"
 ID: "9d238695-df9f-4648-ac65-c226c221427a"
