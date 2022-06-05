@@ -3,19 +3,20 @@
     <keep-alive>
       <HeroSection>
         <template v-slot:content>
-
-          <div class="flex flex-col items-center justify-center">
-
-            <div class="p-5 text-white rounded ">
-              <div class="lg:text-7xl md:text-5xl text-2xl font-bruno ">
-                <span class="">Skorsky Blog</span></div>
-              <div class="text-center mt-3 dynamic-letters">Kodlamak, bir hayat prensibi  !</div>
-            </div>
-
+          <div id="page_wrap">
+	          <div class="p-5 text-white rounded">
+	          	<div class="typed_wrap lg:text-4xl md:text-5xl text-2xl font-bruno">
+	          		<vue-typed-js :strings="['Skorsky Blog', 'Kodlamak, bir hayat prensibi!']" :backSpeed="100" 
+                  :fadeOut="true" :loop="true" :loopCount="3" :typeSpeed="100">
+                  <h1 class="typing"></h1>
+                </vue-typed-js>
+	          	</div>
+	          </div>
           </div>
         </template>
       </HeroSection>
     </keep-alive>
+
     <div class="mt-10">
       <div class="">
         <div class="px-8">
@@ -150,11 +151,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-
   </div>
 </template>
 
@@ -164,13 +160,19 @@ import BlogCard from "@/components/BlogCard";
 import BlogCardHorizontal from "@/components/BlogCardHorizontal";
 import HeroSection from "@/components/HeroSection";
 import dynamicLetters from "~/plugins/dynamic-letters";
+import VueTypedJs from "vue-typed-js"
+import Vue from "vue";
+import Banner from "../components/Banner.vue";
+
+Vue.use(VueTypedJs)
 
 export default {
   components: {
     HeroSection,
     BlogCard,
-    BlogCardHorizontal
-  },
+    BlogCardHorizontal,
+    Banner
+},
   data() {
     return {
       siteMetaInfo: siteMetaInfo,

@@ -138,7 +138,7 @@
     </script>
     <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
 
-  </div>
+    </div>
     </div>
 
   </div>
