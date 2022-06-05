@@ -5,7 +5,8 @@ description: "How to use vue typed js"
 categories:
   - "software"
 slug: "vue-typed-js"
-tags: []
+tags:
+  - "typedjs"
 date: "2022-06-06 12:00"
 cover: "cover3.jpg"
 createdAt: 1654467130449
