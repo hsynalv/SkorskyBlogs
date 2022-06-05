@@ -6,7 +6,8 @@ tags:
   - "dotnet"
   - "c-sharp"
 slug: "c-sharp-dotnet"
-categories: []
+categories:
+  - "c-sharp"
 date: "2022-06-04 12:00"
 cover: "cover3.jpg"
 createdAt: 1654440955091
