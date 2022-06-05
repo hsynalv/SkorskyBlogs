@@ -2,7 +2,8 @@
 ID: "9438556e-df96-4a7d-8467-20af080d6aa6"
 title: "Asp.NET ile API yazımı"
 description: "Asp.NET ile API yazımı"
-tags: []
+tags:
+  - "dotnet"
 slug: "dot-net-ile-api-yazimi"
 categories: []
 date: "2022-06-04 12:00"
