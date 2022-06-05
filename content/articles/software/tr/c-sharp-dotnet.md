@@ -4,6 +4,7 @@ title: "C# Asp.NET"
 description: "C# Asp.NET"
 tags:
   - "dotnet"
+  - "c-sharp"
 slug: "c-sharp-dotnet"
 categories: []
 date: "2022-06-04 12:00"
