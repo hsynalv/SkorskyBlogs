@@ -16,9 +16,20 @@
     </p>
     <br/>
     <p>
-      Unutmadan bu site de bir Nuxt.js ve Vue.js ürünü...
+      Unutmadan bu site de bir Nuxt.js ve Vue.js ürünüdür. Ayrıca
+      <a href="https://contentrain.io/">Contentrain</a> ve <a href="https://www.netlify.com/">Netlify</a>' a teşekkür ederim...
     </p>
 
 
   </div>
 </template>
+
+<style scoped> 
+a:hover{
+  background-color: #53304d;
+  color: #fff;
+  border: 50%;
+  border-radius: 5%;
+  transition: .5s;
+}
+</style>

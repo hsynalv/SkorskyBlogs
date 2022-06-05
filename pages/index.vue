@@ -126,15 +126,7 @@ export default {
         hid: "description",
         name: "description",
         content: siteMetaInfo.description,
-      },
-      { hid: "og:description", name: "og:description", content: siteMetaInfo.description },
-      { hid: "og:type", name: "og:type", content: "article" },
-      { hid: "og:title", name: "og:title", content: "A propos de l'auteur" },
-      { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" },
-      { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + siteMetaInfo.author_image },
-      { name: "twitter:text:title", content: "A propos de l'auteur" },
-      { name: "twitter:image", content: 'https://eventuallycoding.com' +  siteMetaInfo.author_image  },
-      { name: "twitter:card", content: 'summary'  },
+      }
 
     ],
   },

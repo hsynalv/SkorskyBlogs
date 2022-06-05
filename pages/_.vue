@@ -1,13 +1,16 @@
 <template>
   <div>
-    <section class="flex items-center justify-center h-64 bg-transparent">
+    <div>
+          <section class="flex items-center justify-center h-64 bg-transparent">
       <img
         :src="'/images/covers/'+article.cover"
         :alt="article.title"
-        class="absolute top-48 w-64 -translate-y-32 mt-7"
+        class="absolute top-48 w-64 -translate-y-32"
       />
     </section>
-  <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-10">
+    </div>
+    <div>
+        <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-20">
     <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
       {{ article.title }}
     </h1>
@@ -136,6 +139,8 @@
     <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
 
   </div>
+    </div>
+
   </div>
 </template>
 <script>
@@ -279,22 +284,10 @@ export default {
           name: "description",
           content: this.article.description,
         },
-        { hid: "og:description", name: "og:description", content: this.article.description },
-        { hid: "og:type", name: "og:type", content: "article" },
-        { hid: "og:title", name: "og:title", content: this.article.title },
-        { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" + this.article.path.replace('/articles', '') },
-        { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ this.article.cover },
-        { name: "og:image:alt", content: this.article.title },
-        { name: "twitter:text:title", content: this.article.title },
-        { name: "twitter:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ this.article.cover },
-        { name: "twitter:card", content: 'summary'  },
-        { name: "article:published_time", content: this.article.createdAt  },
-        { name: "article:article:modified_time", content: this.article.updatedAt  },
-        { name: "article:article:tag", content: this.article.tags ? this.article.tags.toString() : "" },
 
       ],
       link: [
-        { rel: "canonical", href: "https://eventuallycoding.com" + this.article.path.replace('/articles', '') },
+        { rel: "canonical", href: "http://localhost:3000" + this.article.path.replace('/articles', '') },
       ],
     };
   },

@@ -36,9 +36,11 @@
           </div>
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex-shrink-0 flex items-center">
-            <span class="text-white text-base font-medium font-bruno text-2xl font-to-invert-to-pink">
-                Skorsky Blog
-            </span>
+            <NuxtLink
+                :to="'/'"
+                class="text-white text-base font-medium font-bruno text-2xl font-to-invert-to-pink"
+                >Skorsky Blog
+              </NuxtLink>
             </div>
             <div class="hidden sm:block sm:ml-6">
               <div class="flex space-x-4">
