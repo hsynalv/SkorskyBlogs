@@ -7,6 +7,7 @@ categories:
   - "dotnet"
 tags:
   - "dotnet"
+  - "user-guide"
 date: "2022-06-06 12:00"
 cover: "cover7.jpg"
 createdAt: 1654447211377
