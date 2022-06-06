@@ -5,7 +5,7 @@
       <img
         :src="'/images/covers/'+article.cover"
         :alt="article.title"
-        class="absolute top-48 w-64 -translate-y-32"
+        class="absolute top-48 w-64 -translate-y-32 mt-5 mb-5"
       />
     </section>
     </div>
@@ -287,7 +287,7 @@ export default {
 
       ],
       link: [
-        { rel: "canonical", href: "http://localhost:3000" + this.article.path.replace('/articles', '') },
+        { rel: "canonical", href: "https://skorskyblog.netlify.app" + this.article.path.replace('/articles', '') },
       ],
     };
   },
