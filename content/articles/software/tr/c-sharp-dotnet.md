@@ -7,13 +7,16 @@ tags:
   - "c-sharp"
 slug: "c-sharp-dotnet"
 categories:
-  - "software"
+  - "c-sharp"
 date: "2022-06-04 12:00"
 cover: "cover3.jpg"
 createdAt: 1654440955091
+updatedAt: 1654716316905
 
 ---
 # Oculos pars auras Ortygie
+
+<span style="color:red">User EXEC Mode (Kullanıcı EXEC Modu)</span>
 
 ## Mixtum herbas
 
