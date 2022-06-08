@@ -1,6 +1,7 @@
 ---
 tags:
   - "Cisco"
+  - "Switch"
 description: "Cisco switch cihazlarına yapılandırmaya başlamak için switch ve IOS'u tanıyalım."
 title: "Cisco Switch'e ilk Adım"
 categories: []
