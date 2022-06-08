@@ -11,7 +11,7 @@ ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
 cover: "cover1.jpg"
 date: "2022-06-09 12:00"
 createdAt: 1654728343247
-updatedAt: 1654728580372
+updatedAt: 1654728961997
 
 ---
 ## Switch Adını Değiştirelim
@@ -26,7 +26,7 @@ Varsayılan isim, daha açıklayıcı bir isimle değiştirilmelidir. İsimler a
 - Sadece harf, sayı ve tireler kullanılmalı
 - Uzunluğu 64 karakterden az olmalı
 
-Yukarıda örnek bir switch adlandırması görmekteyiz. 
+Aşağıda örnek bir switch adlandırması görmekteyiz. 
 
 ![örnek-switch-adlandırması](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8bca2c1e-e069-4769-8f4c-9c513df32825/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T211755Z&X-Amz-Expires=86400&X-Amz-Signature=ae65ec7eb13e839b68921c2d02bc01810d9085d3deb45d78d8e8a93ad17e65ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
@@ -64,9 +64,9 @@ Sw-Floor-1(config)# exit
 Sw-Floor-1#
 ```
 
-Henüz işimiz bitmedi şimdi sıra Cisco Switchlerde bulunan SSH ve Telnet gibi uzaktan bağlantı yapmamıza olanak sunan sanal vty şirelemekte. Çoğu Cisco cihazında 0-15 aralığında numaralandırılmış 16 adet sanal vty hattı yer alır.
+Henüz işimiz bitmedi şimdi sıra Cisco Switchlerde bulunan SSH ve Telnet gibi uzaktan bağlantı yapmamıza olanak sunan sanal vty hatlarını şirelemekte. Çoğu Cisco cihazında 0-15 aralığında numaralandırılmış 16 adet sanal vty hattı yer alır.
 
-Bu sanal hatları şifrelemek için global config modda iken <code>line vty 0 15</code> komutunu kullanarak vty config moda geçiş yaparız. Daha sonra <code>password</code> komutunun ardından istediğimiz şifreyi verebiliriz. Hemen ardından <code>login</code>
+Bu sanal hatları şifrelemek için global config modda iken <code>line vty 0 15</code> komutunu kullanarak vty config moda geçiş yapıyoruz. Daha sonra <code>password</code> komutunun ardından istediğimiz şifreyi verebiliriz. Hemen ardından <code>login</code>
 komutunu kullanarak vty erişimini etkinleştiriyoruz.
 
 ```
@@ -98,12 +98,14 @@ Sw-Floor-1# show running-config
 ```
 ![encrypte password](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d530255c-10cd-49e6-9371-1612dce60dd0/capture_20220609012157159.bmp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T222232Z&X-Amz-Expires=86400&X-Amz-Signature=fae55173382260d8be969f313c2d0413e9c7f0d13b040feea6ed73d9450815f7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22capture_20220609012157159.bmp%22&x-id=GetObject)
 
+Artık şifrelerde encrypte olmuş halde. Durmak yok ilerlemeye devam. 
+
 ## Banner Mesajları Gösterelim
 ![banner](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2cc48ce8-6fed-4517-867b-d905c7a9af8a/capture_20220609013000109.bmp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T223112Z&X-Amz-Expires=86400&X-Amz-Signature=93f04bea494ea860d2ca6e0042d63b4126b95b5f487baa9be09a60d091187ea5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22capture_20220609013000109.bmp%22&x-id=GetObject)
 
 Cisco cihazına ilk eriştiğimizde yukarıdaki gibi bir banner mesajı verseydik güzel olmaz mıydı? Evet ben de aynı şekilde düşündüm. Hadi bir banner mesajı verelim.
 
-Öncelikle global config moda geçtikten sonra <code>banner motd</code> komutundan sonra banner mesajı içerisinde yer almayacal özel bir karakteri ayraç olarak kullanarak mesajımızı giriyoruz. Daha anlaşılır olması için örnek verelim.
+Öncelikle global config moda geçtikten sonra <code>banner motd</code> komutundan sonra banner mesajı içerisinde yer almayacak özel bir karakteri ayraç olarak kullanarak mesajımızı giriyoruz. Daha anlaşılır olması için örnek verelim.
 ```
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# banner motd !Authorized Access Only!
