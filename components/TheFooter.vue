@@ -33,7 +33,7 @@
         </a>
 
       </div>
-      <div class="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
+      <div class="text-center mobile-flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
         <div>Copyright © {{ new Date().getFullYear() }}</div>
         <div>•</div>
         {{ siteMetadata.title }} - {{ siteMetadata.slogan }}
@@ -52,3 +52,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@media screen and (min-width: 768px) {
+  .mobile-flex{
+    display: flex;
+  }
+}
+</style>

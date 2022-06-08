@@ -1,28 +1,28 @@
 <template>
   <div class="md:fixed">
-    <div class="md:block flex justify-center items-center">
+    <div class="md:block flex mobile-justify items-center">
       <nuxt-img
         :src="siteMetadata.author_image"
         loading="lazy"
         alt="me"
-        class="h-45 w-30 ml-10"
+        class="h-45 w-30 ml-8"
       />
-      <div class="mb-2 mx-7 mt-4 justify-center items-center">
-        <h1
+    </div>
+    <div class="mb-2 mx-7 mt-4 text-center">
+      <h1
           class="md:text-3xl text-2xl text-gray-800 font-bold dark:text-blue-100"
-        >
-          {{ siteMetadata.author }}
-        </h1>
-        <div class="md:text-lg text-gray-600 dark:text-blue-100">
-          {{ siteMetadata.position }}
-        </div>
-        <a
+      >
+        {{ siteMetadata.author }}
+      </h1>
+      <div class="md:text-lg text-gray-600 dark:text-blue-100 text-left mobile-center">
+        {{ siteMetadata.position }}
+      </div>
+      <a
           :href="`mailto:${siteMetadata.email}`"
           class="text-gray-600 md:hidden mt-1 dark:text-blue-100"
-        >
-          {{ siteMetadata.email }}
-        </a>
-      </div>
+      >
+        {{ siteMetadata.email }}
+      </a>
     </div>
 
     <div class="mx-7 hidden md:block">
@@ -62,3 +62,19 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@media screen and (min-width: 768px) {
+  .mobile-justify{
+    justify-content: center;
+  }
+  mobile-left{
+    text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile-center{
+    text-align: center;
+  }
+}
+</style>
