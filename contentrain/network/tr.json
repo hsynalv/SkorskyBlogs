@@ -19,7 +19,8 @@
   },
   {
     "tags": [
-      "cisco"
+      "cisco",
+      "switch"
     ],
     "description": "Temel switch yapılandırmalarını yapalım.",
     "title": "Temel Switch Yapılandırması",
