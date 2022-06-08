@@ -4,7 +4,8 @@ tags:
   - "switch"
 description: "Cisco switch cihazlarına yapılandırmaya başlamak için switch ve IOS'u tanıyalım."
 title: "Cisco Switch'e ilk Adım"
-categories: []
+categories:
+  - "network"
 slug: "cisco-switch-e-ilk-dım"
 ID: "1c86164b-7c68-4f8c-a9ab-c95ce427086b"
 cover: "cover1.jpg"
