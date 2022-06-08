@@ -8,9 +8,10 @@ categories:
   - "network"
 slug: "temel-switch-yapilandirmasi"
 ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
-cover: "cover2.jpg"
+cover: "cover1.jpg"
 date: "2022-06-09 12:00"
 createdAt: 1654728343247
+updatedAt: 1654728523684
 
 ---
 ## Switch Adını Değiştirelim
