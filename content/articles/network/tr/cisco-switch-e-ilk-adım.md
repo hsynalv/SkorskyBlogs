@@ -11,7 +11,7 @@ ID: "1c86164b-7c68-4f8c-a9ab-c95ce427086b"
 cover: "cover1.jpg"
 date: "2022-06-08 12:00"
 createdAt: 1654719373157
-updatedAt: 1654720216602
+updatedAt: 1654722303762
 
 ---
 Tüm ağ cihazlarının her birinde birer işletim sistemi olmak zorundadır. Cisco Switch cihazlarında ise IOS işletim sistemi vardır. (Apple IOS ile karıştırmayın :-))
@@ -49,11 +49,11 @@ Global Config moduna, diğer belirli yapılandırma modlarından önce erişilir
 - **Line Config Mode** ⇒ Konsol, SSH, Telnet veya AUX erişimini yapılandırmak için kullanılır.
 - **Interface Config Mode** ⇒ Switch portunu veya Router ağ arayüzünü yapılandırmak için kullanılır.
 
-CLI kullanırken hangi modda olduğumuzu o moda ait komut istemi aracılığı ile öğreniriz. varsayılan olarak her komut istemi cihazın adı ile başlar, daha sonra ise hangi modda olduğunu belirten ifade yer alır. Örneğin;
+CLI kullanırken hangi modda olduğumuzu o moda ait komut istemi aracılığı ile öğreniriz. Varsayılan olarak her komut istemi cihazın adı ile başlar, daha sonra ise hangi modda olduğunu belirten ifade yer alır. Örneğin;
 
-Global Config Mode ⇒ <code>SwitchAdı(config)#</code>
-Line Config Mode ⇒ <code>SwitchAdı(config-line)#</code>
-Interface Config Mode ⇒ <code>SwitchAdı(config-if)#</code>
+- Global Config Mode ⇒ <code>SwitchAdı(config)#</code>
+- Line Config Mode ⇒ <code>SwitchAdı(config-line)#</code>
+- Interface Config Mode ⇒ <code>SwitchAdı(config-if)#</code>
 
 ## Switch Modları Arasında Gezinelim
 
