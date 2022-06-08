@@ -1,6 +1,7 @@
 ---
 tags:
   - "cisco"
+  - "switch"
 description: "Temel switch yapılandırmalarını yapalım."
 title: "Temel Switch Yapılandırması"
 categories: []
