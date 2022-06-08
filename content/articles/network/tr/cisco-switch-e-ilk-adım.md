@@ -8,10 +8,10 @@ categories:
   - "network"
 slug: "cisco-switch-e-ilk-adım"
 ID: "1c86164b-7c68-4f8c-a9ab-c95ce427086b"
-cover: "cover1.jpg"
+cover: "cover2.jpg"
 date: "2022-06-08 12:00"
 createdAt: 1654719373157
-updatedAt: 1654722303762
+updatedAt: 1654728512525
 
 ---
 Tüm ağ cihazlarının her birinde birer işletim sistemi olmak zorundadır. Cisco Switch cihazlarında ise IOS işletim sistemi vardır. (Apple IOS ile karıştırmayın :-))
