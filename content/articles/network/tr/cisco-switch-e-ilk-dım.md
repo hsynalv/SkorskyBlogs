@@ -11,6 +11,7 @@ ID: "1c86164b-7c68-4f8c-a9ab-c95ce427086b"
 cover: "cover1.jpg"
 date: "2022-06-08 12:00"
 createdAt: 1654719373157
+updatedAt: 1654719647212
 
 ---
 Tüm ağ cihazlarının her birinde birer işletim sistemi olmak zorundadır. Cisco Switch cihazlarında ise IOS işletim sistemi vardır. (Apple IOS ile karıştırmayın :-))
@@ -19,7 +20,7 @@ Bu makalemizde ise bu temel kullanım için bu IOS işletim sistemini nasıl con
 
 Öncelikle Cisco Swicth cihazlarında herhangi bir GUI yok bu nedenle çoğu kişinin sevmediği ama biz network ve siber güvenlik ile uğraşan kişilerin sevdiği ve çokça aşina olduğu CLI ekranını kullanacağız 
 
-# IOS CLI'a İlk Adımlar
+## IOS CLI'a İlk Adımlar
 
 Cisco IOS yazılımı bir güvenlik özelliği olarak, yönetim erişimini aşağıdaki gibi iki komut moduna ayırır:
 
