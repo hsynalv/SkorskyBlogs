@@ -13,7 +13,7 @@
         </div>
 
         <!-- Responsive Sidebar -->
-        <div v-if="toc.length > 0" class="text-right mb-12">
+        <div v-if="toc.length > 0" class="text-center mb-12">
             <FilterDropdown v-if="toc.length > 0">
                 <template v-slot:title>Konu Başlıkları</template>
                 <template v-slot:options>

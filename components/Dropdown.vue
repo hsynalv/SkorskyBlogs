@@ -1,5 +1,5 @@
 <template>
-    <div class="relative inline-block text-left ml-2 block lg:hidden">
+    <div class="relative mobile-inline text-left ml-10 block lg:hidden w-64">
         <div>
             <span class="rounded-md shadow-sm">
                 <button
@@ -22,7 +22,7 @@
             </span>
         </div>
 
-        <div v-if="showOptions === true" class="origin-top-right absolute right-0 mt-2 w-64 rounded-md shadow-lg z-1000">
+        <div v-if="showOptions === true" class="origin-top-right absolute right-0 mt-2 mobile-w rounded-md shadow-lg z-1000">
             <div class="rounded-md bg-white shadow-xs">
                 <div class="py-1" role="menu" aria-orientation="vertical">
                     <slot name="options">
@@ -74,4 +74,13 @@
     };
 </script>
 
-<style></style>
+<style scoped>
+@media screen and (min-width: 768px) {
+  .mobile-inline{
+    display: inline-block;
+  }
+  .mobile-w{
+    width: 16rem;
+  }
+}
+</style>

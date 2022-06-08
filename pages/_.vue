@@ -16,7 +16,7 @@
     </h1>
 
     <div class="grid grid-cols-3 text-center w-1/2 mx-auto">
-      <div>
+      <div class="mobile-responsive">
         <p class="text-center font-bold my-5 text-slate-400 text-xs">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -24,7 +24,7 @@
           {{ formatDate(article.date) }}
         </p>
       </div>
-      <div>
+      <div class="mobile-responsive">
         <p class="text-center font-bold my-5 text-slate-400 text-xs">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -32,7 +32,7 @@
           {{ article.readTime.text }}
         </p>
       </div>
-      <div class="flex items-center font-medium sm:mx-3 justify-center">
+      <div class="flex items-center font-medium sm:mx-3 justify-center mobile">
         <nuxt-img
           :src="siteMetadata.author_image"
           loading="lazy"
@@ -52,7 +52,6 @@
           </a>
         </div>
       </div>
-
     </div>
     <div class="w-1/2 mx-auto">
       <p class="mt-2 text-xs my-3 flex flex-wrap -m-1 justify-center">
@@ -71,7 +70,7 @@
         </div>
 
         <div class="w-full px-5 max-w-none centered-image" :class="article.toc.length > 0  ? 'lg:w-3/4 ' : ''">
-          <nuxt-content id="nuxtContent" class="prose font-proxima text-xl font-medium min-w-full p-10 mx-auto" :document="article" />
+          <nuxt-content id="nuxtContent" class="prose font-proxima text-xl font-medium min-w-full mx-auto" :document="article" />
         </div>
       </div>
     </div>
@@ -288,6 +287,17 @@ export default {
 }
 .nuxt-content p {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-responsive{
+    display: none;
+  }
+  .mobile{
+    position: relative;
+    margin: auto;
+    margin-left: 50%;
+  }
 }
 
 </style>
