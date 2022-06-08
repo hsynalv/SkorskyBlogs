@@ -11,7 +11,7 @@ ID: "1c86164b-7c68-4f8c-a9ab-c95ce427086b"
 cover: "cover1.jpg"
 date: "2022-06-08 12:00"
 createdAt: 1654719373157
-updatedAt: 1654719662399
+updatedAt: 1654720002521
 
 ---
 Tüm ağ cihazlarının her birinde birer işletim sistemi olmak zorundadır. Cisco Switch cihazlarında ise IOS işletim sistemi vardır. (Apple IOS ile karıştırmayın :-))
@@ -27,7 +27,7 @@ Cisco IOS yazılımı bir güvenlik özelliği olarak, yönetim erişimini aşa�
 <span style="color:green">User EXEC Mode (Kullanıcı EXEC Modu)</span>
 
 - Bu mod sadece kısıtlı sayıda temel monitoring (izleme) komutlarına izin verir.
-- Genellikle "*==yalnızca görüntüleme modu==*" veya "==enable mode==" olarak adlandırılır.
+- Genellikle <em>yalnızca görüntüleme modu</em veya <em>enable mode</em> olarak adlandırılır.
 - Cihaz yapılandırmasına herhangi bir değişiklik yapılmasına izil verilmez.
 - CLI'da <code>SwitchAdı></code> ile gösterilir. 
 
@@ -38,11 +38,11 @@ Cisco IOS yazılımı bir güvenlik özelliği olarak, yönetim erişimini aşa�
 - Global Config modu gibi daha yüksek yapılandırma modlarına sadece bu moddan giriş yapılabilir.
 - CLI'da <code>SwitchAdı#</code> ile gösterilir. 
 
-# Global Yapılandırma Modu ve Alt Yapılandırma Modları
+## Global Yapılandırma Modu ve Alt Yapılandırma Modları
 
 Cisco switchlerini yapılandırmak için kullanıcının global yapılandırma modu olarak adlandırılan, global config moduna girmesi gerekir.
 
-Global yapılandırma modunda, cihazın bir bütün olarak çalışmasını etkileyen CLI yapılandırma değişiklikleri yapılır. Global yapılandırma modu, <code>Switch(config)#</code> gibi cihaz adından sonra biten bir *==(config)#==* istemiyle tanımlanır.
+Global yapılandırma modunda, cihazın bir bütün olarak çalışmasını etkileyen CLI yapılandırma değişiklikleri yapılır. Global yapılandırma modu, <code>Switch(config)#</code> gibi cihaz adından sonra biten bir <em>(config)#</em> istemiyle tanımlanır.
 
 Global Config moduna, diğer belirli yapılandırma modlarından önce erişilir. Kullanıcı global Config modundan farklı alt yapılandırma modlarına girebilir. Bu modların her biri, switchin belirli bir bölümünün veya işlevinin yapılandırılması için kullanılır. Alt yapılandırma modlarına iki örnek aşağıdaki gibidir.
 
@@ -55,13 +55,13 @@ Global Config Mode ⇒ <code>SwitchAdı(config)#</code>
 Line Config Mode ⇒ <code>SwitchAdı(config-line)#</code>
 Interface Config Mode ⇒ <code>SwitchAdı(config-if)#</code>
 
-# Switch Modları Arasında Gezinelim
+## Switch Modları Arasında Gezinelim
 
-Swicth modlarına girip çıkmak için özel komutlar kullanılır. User EXEC modundan Privileged EXEC moduna geçmek için *==*enable *==*komutu kullanılır. Kullanıcı EXEC moduna geri dönmek için ise Privileged EXEC modundayken ==disable== komutunu kullanılır.
+Swicth modlarına girip çıkmak için özel komutlar kullanılır. User EXEC modundan Privileged EXEC moduna geçmek için <code>enable</code>komutu kullanılır. Kullanıcı EXEC moduna geri dönmek için ise Privileged EXEC modundayken <code>disable</code> komutunu kullanılır.
 
-Global Config moduna girmek için Privileged EXEC modundayken ==configure terminal== modunu kullanılır. Global Config moddan Privileged EXEC moduna geri dönmek için ie ==exit== komutu kullanılır.
+Global Config moduna girmek için Privileged EXEC modundayken <code>configure terminal</code> modunu kullanılır. Global Config moddan Privileged EXEC moduna geri dönmek için ie <code>exit</code> komutu kullanılır.
 
-Birçok farklı alt yapılandırma modu vardır. Örneğin, Line Config moduna girmek için ==line== komutu ve ardından erişmek istediğiniz yönetim line türünü ve numarasını kullanılır. Alt yapılandırma modundan çıkmak ve global yapılandırma moduna dönmek için exit komutu kullanılır.
+Birçok farklı alt yapılandırma modu vardır. Örneğin, Line Config moduna girmek için <code>line</code> komutu ve ardından erişmek istediğiniz yönetim line türünü ve numarasını kullanılır. Alt yapılandırma modundan çıkmak ve global yapılandırma moduna dönmek için exit komutu kullanılır.
 
 ```
 Switch(config)# line console 0
@@ -69,7 +69,7 @@ Switch(config-line)# exit
 Switch(config)#
 ```
 
-Herhangi bir alt yapılandırma modundan, modlar hiyerarşisine göre bi üst moda geçmek için ==exit == komutu dışında ==end== komutu ve Ctrl+Z tuş kombinasyonu kullanılabilir.
+Herhangi bir alt yapılandırma modundan, modlar hiyerarşisine göre bi üst moda geçmek için <code>exit</code> komutu dışında <code>end</code> komutu ve Ctrl+Z tuş kombinasyonu kullanılabilir.
 
 Ayrıca bir alt yapılandırma modundan diğerine doğrudan da geçebiliriz. Bir arayüzü seçtikten sonra komut isteminin değiştiğine dikkat edelim
 
