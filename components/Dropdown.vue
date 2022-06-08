@@ -83,4 +83,9 @@
     width: 16rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  .mobile-inline{
+    display: none;
+  }
+}
 </style>
