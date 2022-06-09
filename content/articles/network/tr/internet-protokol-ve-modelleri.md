@@ -12,9 +12,10 @@ slug: "internet-protokol-ve-modelleri"
 cover: "cover3.jpg"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654792857570
+updatedAt: 1654794141193
 
 ---
+
 Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. Ethernet prokolleri ve protokol paketleri nelerdir bunlara bakacağız. 
 
 ## Ağ Protokollerine Genel Bakış
@@ -45,21 +46,25 @@ Bu katmanları bir sonraki makalemizde daha ayrıntılı anlatacağım.
 ## TCP/IP Protokol Paketi
 TCP ve IP birleşerek TCP/IP protokol ailesini oluşturmaktadır. Bu sayede bilgisayarlar arasında birden fazla iletişim metodu kullanılabilmektedir. Bu iletişim sırasında kullanılan TCP/IP katmanları ise aşağıdaki gibi belirtilmiştir.
 
-1. Katman – Uygulama
-2. Katman – Taşıma
-3. Katman – İnternet
-4. Katman – Ağ
+1. Katman – Application layer - Uygulama katmanı
+2. Katman – Transport layer -Taşıma katmanı
+3. Katman – Internet layer - İnternet katmanı
+4. Katman – Network layer - Ağ katmanı
 
-Günümüzde, TCP/IP protokol paketi birçok protokol içerir ve yeni hizmetleri desteklemek için gelişmeye devam eder. Daha popüler olanlardan bazıları şekilde gösterilmiştir.![tcp-ıp-protokol-paketi](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70b7e71d-cdfd-44f8-a924-a1f0ddd5b0be/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220609T150718Z&X-Amz-Expires=86400&X-Amz-Signature=1e3bfefc2f1ebeb97d02d279aac85e14e75e5abc243ee082b36acd5aaf31ac02&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+Günümüzde, TCP/IP protokol paketi birçok protokol içerir ve yeni hizmetleri desteklemek için gelişmeye devam eder. Daha popüler olanlardan bazıları şekilde gösterilmiştir.
+![tcp-ıp-protokol-paketi](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70b7e71d-cdfd-44f8-a924-a1f0ddd5b0be/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220609T150718Z&X-Amz-Expires=86400&X-Amz-Signature=1e3bfefc2f1ebeb97d02d279aac85e14e75e5abc243ee082b36acd5aaf31ac02&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 Yukarıda bahsedilen protokolleri her katman için biraz daha detaylı inceleyelim.
 
 ###   Application Layer - Uygulama Katmanı
 
-##### Name System
+<span style="color:#202b3d">Name System</span>
+
 - **DNS - Domain Name System** 
-	skorskyblog.me gibi alan adlarını IP adreslerine çevirir.
-##### Host Config
+skorskyblog.me gibi alan adlarını IP adreslerine çevirir.
+
+<span style="color:#202b3d">Host Config - Host Yapılandırma</span>
+
 - **DHCPv4 - Dynamic Host Configuration Protocol v4** 
  IPv4 için DHCPv4 sunucusu, başlangıçta DHCPv4 istemcilerine IPv4 adresleme bilgilerini dinamik olarak atar ve artık ihtiyaç duyulmadığında adreslerin yeniden kullanılmasına izin verir.
  
@@ -69,48 +74,53 @@ IPv6 için DHCPv6, DHCPv4'e benzer. DHCPv6 sunucusu, başlangıçta DHCPv6 istem
 -   **SLAAC - StateLess Address Auto Configuration**  
 Bir aygıtın DHCPv6 sunucusu kullanmadan IPv6 adresleme bilgilerini almasını sağlayan bir yöntem.
 
-#####  E-mail
+<span style="color:#202b3d">E-mail</span>
+
 -   **SMTP - Simple Mail Transfer Protocol**
-İstemcilerin bir posta sunucusuna e-posta göndermesini sağlar ve sunucuların diğer sunuculara e-posta göndermesini sağlar.
+İstemcilerin bir posta sunucusuna ve sunucuların diğer sunuculara e-posta göndermesini sağlar.
  
 -   **POP3 - Post Office Protocol 3**
 İstemcilerin bir posta sunucusundan e-posta almasını ve e-postayı istemcinin yerel posta uygulamasına indirmesini sağlar.
 
 -   **IMAP - Internet Message Access Protocol**
-İstemcilerin, bir posta sunucusunda depolanan e-postalara erişebilmesinin yanı sıra sunucuda e-postaları da korumasını sağlar.
+İstemcilerin, bir posta sunucusunda depolanan e-postalara erişebilmesinin yanı sıra sunucuda e-postaların korumasını da sağlar.
 
-#####  File Transfer
+<span style="color:#202b3d">File Transfer - Dosya Transferi</span>
 
 -   **FTP - File Transfer Protocol** 
-Bir hosttaki kullanıcının başka bir hosttaki dosyalara ağ üzerinden erişmesini veya aktarıp almasını sağlayan kuralları belirler. FTP güvenilirdir, bağlantı odaklı ve onaylı bir dosya dağıtım protokolüdür.
+Bir hosttaki kullanıcının başka bir hosttaki dosyalara ağ üzerinden erişmesini veya aktarmasını sağlayan kuralları belirler. FTP güvenilirdir, bağlantı odaklı ve onaylı bir dosya dağıtım protokolüdür.
 
 -   **SFTP - Secure File Transfer Protocol**
 Secure Shell (SSH) protokolünün bir uzantısı olarak SFTP, dosya aktarımının şifrelendiği güvenli bir dosya aktarım oturumu oluşturmak için kullanılabilir. SSH, genellikle bir cihazın komut satırına erişmek için kullanılan güvenli uzaktan oturum açma yöntemidir.
 
 -   **TFTP - Trivial File Transfer Protocol**
 En iyi çaba gerektiren, onaylı olmayan dosya teslimi ile basit, bağlantısız bir dosya aktarım protokolü. FTP'den daha az ek yük kullanır.
+
 #####  Web and Web Service
 
 -   **HTTP - Hyper-Text Transfer Protocol**
-World Wide Web'de metin, grafik görüntü, ses, video ve diğer multimedya dosyalarını alıp vermek için bir dizi kural.
+World Wide Web'de metin, grafik görüntü, ses, video ve diğer multimedya dosyalarını alıp vermesini sağlayan bir dizi kurallar bütünüdür.
 
--   **HTTPS** - World Wide Web üzerinden değiştirilen verileri şifreleyen güvenli bir HTTP formu.
+-   **HTTPS** - World Wide Web üzerinden değiştirilen verileri şifreleyen güvenli bir HTTP formudur.
 
 -   **REST - Representational State Transfer**
-Web uygulamaları oluşturmak için uygulama programlama arayüzlerini (API'ler) ve HTTP isteklerini kullanan bir web hizmeti.
+Web uygulamaları oluşturmak için uygulama programlama arayüzlerini (API'ler) ve HTTP isteklerini kullanan bir web hizmetidir.
 
 ###   Transport Layer - Taşıma Katmanı
 
-##### Connection Oriented - Bağlantı Odaklı
+<span style="color:#202b3d">Connection Oriented - Bağlantı Odaklı</span>
+
 - **TCP - Transmission Control Protocol**
-Ayrı ana bilgisayarlarda çalışan süreçler arasında güvenilir iletişimi sağlar ve başarılı teslimatı doğrulayan güvenilir, onaylı iletimler sağlar.
-##### Connectionless - Bağlantısız
+Ayrı ana bilgisayarlarda çalışan süreçler arasında güvenilir iletişimi sağlar ve başarılı teslimatı doğrulayan güvenilir ve onaylı iletimler sağlar.
+
+<span style="color:#202b3d">Connectionless - Bağlantısız</span>
+
 - **UDP - User Datagram Protocol**
-Bir hostta çalışan bir işlemin, başka bir hostta çalışan bir işleme paket göndermesini sağlar. Ancak, UDP başarılı datagram iletimini doğrulamaz.
+Bir hostta çalışan bir işlemin, başka bir hostta çalışan bir işleme paket göndermesini sağlar. Ancak, UDP başarılı iletimini doğrulamaz.
 
 ###   Internet Layer - İnternet Katmanı
  
-##### Internet Protocol
+<span style="color:#202b3d">Internet Protocol - Internet Protokolü</span>
 
 -   **IPv4**
 Taşıma katmanından ileti kesimlerini alır, iletileri paketler ve ağ üzerinden uçtan uca teslim etmek için paketleri adresler. IPv4, 32 bit adres kullanır.
@@ -121,7 +131,7 @@ IPv4'e benzerdir ancak 128-bit adres kullanır.
 -   **NAT - Network Address Translation**
 Özel bir ağdaki IPv4 adreslerini, genel olarak benzersiz genel IPv4 adreslerine çevirir.
 
-##### Messagign
+<span style="color:#202b3d">Messagign - Mesajlaşma</span>
 
 -   **ICMPv4**
 Paket dağıtımındaki hatalar hakkında bir hedef hosttan kaynak hosta geri bildirim sağlar.
@@ -130,30 +140,32 @@ Paket dağıtımındaki hatalar hakkında bir hedef hosttan kaynak hosta geri bi
 ICMPv4 ile benzer işlevsellik sağlar, ancak IPv6 paketleri için kullanılır.
 
 -   **ICMPv6 ND**
-Adres çözümlemesi ve yinelenen adres algılaması için kullanılan dört protokol iletisi içerir.
+Adres çözümlemesi ve yinelenen adres algılaması için kullanılan dört protokol iletisini içerir.
 
-##### Routing Protocols
+<span style="color:#202b3d">Routing Protocols - Yönlendirme Protokolleri</span>
 
 -   **OSPF - Open Shortest Path First**
 OSPF açık standart bir iç yönlendirme protokolüdür.
 
 -   **EIGRP - Interior Gateway Routing Protocol**
-Gelişmiş İç Ağ Geçidi Yönlendirme Protokolü. Bant genişliği, gecikme, yük ve güvenilirliğe dayalı kompozit metrik kullanan, Cisco tescilli bir yönlendirme protokolü.
+Bant genişliği, gecikme, yük ve güvenilirliğe dayalı kompozit metrik kullanan, Cisco tescilli bir yönlendirme protokolüdür.
 
 -   **BGP - Border Gateway Protocol**
-Sınır Geçidi Protokolü. Internet Servis Sağlayıcıları (ISS) arasında kullanılan açık standart dış ağ geçidi yönlendirme protokolü. BGP aynı zamanda ISS'ler ile büyük özel müşterileri arasında yönlendirme bilgileri alışverişinde bulunmak için yaygın olarak kullanılmaktadır.
+Internet Servis Sağlayıcıları (ISS) arasında kullanılan açık standart dış ağ geçidi yönlendirme protokolüdür. BGP aynı zamanda ISS'ler ile büyük özel müşterileri arasında yönlendirme bilgileri alışverişinde bulunmak için yaygın olarak kullanılmaktadır.
 
 ### Network Access Layer - Ağ Erişim Katmanı
     
-##### Adress Resolution - Adres Çözümleme
+<span style="color:#202b3d">Adress Resolution - Adres Çözümleme</span>
     
 - **ARP**
 Adres Çözümleme Protokolü. IPv4 adresi ile donanım adresi arasında dinamik adres eşlemesi sağlar.
     
-##### Data Link Prtocols - Veri Bağlantısı Protokolleri
+<span style="color:#202b3d">Data Link Prtocols - Veri Bağlantısı Protokolleri</span>
     
 - **Ethernet**
  Ağ erişim katmanının kablolama ve sinyalizasyon standartlarını tanımlar.
  
 - **WLAN - Wireless Local Area Network**
 2,4 GHz ve 5 GHz radyo frekanslarında kablosuz sinyal verme kurallarını tanımlar.
+
+Hangi katmanda hangi protokol var öğrendik şimdi sıra bu katmanlar ne işe yarıyor ona bakalım. Ama o da bir başka makalenin konusu olsun. :)
