@@ -4,7 +4,8 @@ description: "Daha önceki makalemde anlattığım üzere protokoller bilgisayar
 categories:
   - "network"
 slug: "osi-referans-modeli"
-tags: []
+tags:
+  - "osi"
 ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
