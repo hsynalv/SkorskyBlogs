@@ -12,11 +12,11 @@ slug: "internet-protokol-ve-modelleri"
 cover: "cover3.jpg"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654795340791
+updatedAt: 1654795553193
 
 ---
 
-Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. Ethernet prokolleri ve protokol paketleri nelerdir bunlara bakacağız. 
+Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. İnternet protokolleri ve protokol paketleri nelerdir bunlara bakacağız. 
 
 ## Ağ Protokollerine Genel Bakış
 Tıpkı insanların iletişiminde olduğu gibi bilgisayarlarda kendilerine özgü bir dil kullanır. Bizdeki dilin bilgisayarlardaki karşılığı protokol olarak adlandırılır ve her uç cihaz birbiriyle iletişim kurarken bu protokollere uymak zorundadır. 
