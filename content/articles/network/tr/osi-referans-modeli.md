@@ -10,6 +10,7 @@ ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
 createdAt: 1654814286182
+updatedAt: 1654814834719
 
 ---
 Daha önceki makalemde anlattığım üzere protokoller bilgisayarların iletişimi için olmazsa olmazdır. Şimdi OSI Referans Modelini daha detaylı şekilde inceleyelim.
@@ -40,6 +41,7 @@ Bilgisayar için her şey 1 ve 0'dır. Gönderilecek veri de 1 ve 0 lar olarak i
 Gönderim işleminden önce ortamın özelliklerine karar verilmelidir ki işte bu işlemi gerçekleştiren katman fiziksel katmandır. Kablolu bağlantı için kablo türü, kablosuz bağlantı için iletim kanalı seçimi vb. kararlar bu katmanda verilir. Bitler, elektrik, radyo sinyalleri, ışık gibi pek çok yolla gönderilebilir. İletimin gerçekleşmesi açısından önemli unsur ise taşıma ortamıdır. Taşıma ortamı hem alıcı hem gönderici için aynı olmalıdır. Elektriksel yolla iletilen veri radyo sinyalleri olarak alınırsa iletim düzgün şekilde gerçekleşemez. Taşıma ortamı iletim için tek unsur, tek şart değildir. Voltaj değeri veri iletim hızı gibi değerlerin de uygun şekilde tanımlanması gerekir.
 
 > RS232, ATM, FDDI, gibi protokoller bu katmanda çalışır.
+
 > Repeater cihazları, hub, kablolar, ethernet bu katman üzerinde çalışır
 
 ## 2-Data Link layer (Veri Bağlantı Katmanı)
@@ -87,7 +89,6 @@ Oturum katmanı bir bilgisayar birden fazla bilgisayarla aynı anda iletişim i�
 -   Uygulamalar arasındaki bağlantıların kurulması, yönetimi ve sonlandırılmasından sorumludur.
 -   NetBIOS ve Sockets gibi protokoller farklı bilgisayarlarla aynı anda olan bağlantıları yönetme imkanı sağlarlar.
 -   İletişimde problem olması halinde verinin baştan gönderilmemesi için veriye checkpoint’ler ekler. Aksaklık halinde ne kadarı gönderilmediği tespit edilerek sadece o kısım gönderilir.
-- 
 ## 6-Presentation Layer (Sunum Katmanı)
 
 Bu katmanın en önemli görevi gönderilecek olan verinin diğer bilgisayara anlaşılacak şekilde çevrilmesidir.
