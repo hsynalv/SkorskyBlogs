@@ -14,6 +14,10 @@ You can reach my blog, which is still under development, [here](https://skorskyb
 ---
 ![blogs](/readme/blogs.png)
 
+#### Article
+---
+![blogs](/readme/article.png)
+
 #### About
 ----
 ![about](/readme/about.png)
