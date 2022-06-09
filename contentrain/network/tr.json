@@ -2,7 +2,7 @@
   {
     "tags": [
       "cisco",
-      "switch"
+      "first-step-to-switch"
     ],
     "description": "Cisco switch cihazlarına yapılandırmaya başlamak için switch ve IOS'u tanıyalım.",
     "title": "Cisco Switch'e ilk Adım",
@@ -20,7 +20,8 @@
   {
     "tags": [
       "cisco",
-      "switch"
+      "switch",
+      "switch-config"
     ],
     "description": "Temel switch yapılandırmalarını yapalım.",
     "title": "Temel Switch Yapılandırması",
