@@ -12,7 +12,7 @@ ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
 cover: "cover1.jpg"
 date: "2022-06-09 12:00"
 createdAt: 1654728343247
-updatedAt: 1654728961997
+updatedAt: 1654782908905
 
 ---
 ## Switch Adını Değiştirelim
@@ -49,7 +49,7 @@ Bu moda girdikten sonra <code>password</code> komutunu kullandıktan sonra verme
 ```
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# line console 0
-Sw-Floor-1(config-line)# password cisco
+Sw-Floor-1(config-line)# password skorskyblog
 Sw-Floor-1(config-line)# login
 Sw-Floor-1(config-line)# end
 Sw-Floor-1#
@@ -60,7 +60,7 @@ Artık cihaz üzerinde bulunan konsol hattını şifreledik ancak cihaz üzerind
 Privileged moda geçtikten sonra <code>enable secret</code> komutunun ardından istediğimiz şifreyi girebiliriz. 
 ```
 Sw-Floor-1# configure terminal
-Sw-Floor-1(config)# enable secret class
+Sw-Floor-1(config)# enable secret skorsky
 Sw-Floor-1(config)# exit
 Sw-Floor-1#
 ```
@@ -73,7 +73,7 @@ komutunu kullanarak vty erişimini etkinleştiriyoruz.
 ```
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# line vty 0 15
-Sw-Floor-1(config-line)# password cisco 
+Sw-Floor-1(config-line)# password skorsky-line
 Sw-Floor-1(config-line)# login 
 Sw-Floor-1(config-line)# end
 Sw-Floor-1#
