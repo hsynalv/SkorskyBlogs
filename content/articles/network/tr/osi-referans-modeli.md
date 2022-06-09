@@ -10,7 +10,7 @@ ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
 createdAt: 1654814286182
-updatedAt: 1654814834719
+updatedAt: 1654814897954
 
 ---
 Daha önceki makalemde anlattığım üzere protokoller bilgisayarların iletişimi için olmazsa olmazdır. Şimdi OSI Referans Modelini daha detaylı şekilde inceleyelim.
@@ -110,4 +110,4 @@ Uygulama katmanı, kullanıcıya en yakın olan katmandır. Bizler bu katmanda �
 
 ## Kısaca
 
-OSI kavramsal bir modeldir ne OSI yazılımı nede OSI donanımı diye birşey göremezsiniz. Ancak yazılım ve donanım üreticileri bu modelin tanımlandığı kurallar çevresinde üretim yaparlar ve bu sayede ürünler birbiri ile uyumlu olur.
+OSI kavramsal bir modeldir ne OSI yazılımı nede OSI donanımı diye birşey göremeyiz. Ancak yazılım ve donanım üreticileri bu modelin tanımlandığı kurallar çevresinde üretim yaparlar ve bu sayede ürünler birbiri ile uyumlu hale gelir.
