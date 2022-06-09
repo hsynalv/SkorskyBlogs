@@ -6,7 +6,7 @@
 
           <div v-if="currentTag">
             <h3 class="text-lg font-medium text-gray-700">
-              Filter:
+              Filtre:
             </h3>
           </div>
 
@@ -27,7 +27,7 @@
 
           <div>
             <h3 class="text-lg font-medium text-gray-700">
-              Tags :
+              Etiketler :
             </h3>
           </div>
           <div class="w-full">
