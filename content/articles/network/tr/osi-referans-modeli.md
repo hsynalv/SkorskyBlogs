@@ -10,7 +10,7 @@ ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
 createdAt: 1654814286182
-updatedAt: 1654814897954
+updatedAt: 1654814928008
 
 ---
 Daha önceki makalemde anlattığım üzere protokoller bilgisayarların iletişimi için olmazsa olmazdır. Şimdi OSI Referans Modelini daha detaylı şekilde inceleyelim.
@@ -97,7 +97,7 @@ Bu katmanın en önemli görevi gönderilecek olan verinin diğer bilgisayara an
 -   Datayı Encryption and decryption edilmesi bu katmadan gerçekleşir.
 >  GIF, JPEG, TIFF, EBCDIC, ASCII vb. bu katmanda çalışır.
 
-Bu katmanın görevi çoğunlukla network ile ilgili değildir. Bu katmanı aslen aynı dosyayı okuyabilen programlar kullanmaktır.
+Bu katmanın görevi çoğunlukla network ile ilgili değildir. Bu katmanı aslen aynı dosya türünü okuyabilen programlar kullanmaktır.
 
 ## 7-Application Layer (Uygulama Katmanı)
 
