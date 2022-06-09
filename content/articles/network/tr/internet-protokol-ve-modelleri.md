@@ -9,10 +9,10 @@ title: "İnternet Protokol ve Modelleri"
 categories:
   - "network"
 slug: "internet-protokol-ve-modelleri"
-cover: "cover3.jpg"
+cover: "internet-protokol.png"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654795700876
+updatedAt: 1654798113054
 
 ---
 
