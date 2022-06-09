@@ -12,7 +12,7 @@ slug: "internet-protokol-ve-modelleri"
 cover: "cover3.jpg"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654792627042
+updatedAt: 1654792857570
 
 ---
 Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. Ethernet prokolleri ve protokol paketleri nelerdir bunlara bakacağız. 
@@ -55,6 +55,7 @@ Günümüzde, TCP/IP protokol paketi birçok protokol içerir ve yeni hizmetleri
 Yukarıda bahsedilen protokolleri her katman için biraz daha detaylı inceleyelim.
 
 ###   Application Layer - Uygulama Katmanı
+
 ##### Name System
 - **DNS - Domain Name System** 
 	skorskyblog.me gibi alan adlarını IP adreslerine çevirir.
@@ -106,7 +107,8 @@ Ayrı ana bilgisayarlarda çalışan süreçler arasında güvenilir iletişimi 
 ##### Connectionless - Bağlantısız
 - **UDP - User Datagram Protocol**
 Bir hostta çalışan bir işlemin, başka bir hostta çalışan bir işleme paket göndermesini sağlar. Ancak, UDP başarılı datagram iletimini doğrulamaz.
-### Internet Layer
+
+###   Internet Layer - İnternet Katmanı
  
 ##### Internet Protocol
 
