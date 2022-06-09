@@ -1,7 +1,8 @@
 ---
 ID: "4c59b8ae-5ac7-4187-83bc-8b0e1607ecd6"
 title: "Aut erit quodque"
-categories: []
+categories:
+  - "software"
 slug: "aut-erit-quodque"
 description: "Aut erit quodque"
 tags: []
