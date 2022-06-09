@@ -10,8 +10,9 @@ categories:
   - "network"
 slug: "internet-protokol-ve-modelleri"
 cover: "cover3.jpg"
-date: "2022-06-09 12:00"
+date: "2022-06-09 19:00"
 createdAt: 1654792441731
+updatedAt: 1654792627042
 
 ---
 Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. Ethernet prokolleri ve protokol paketleri nelerdir bunlara bakacağız. 
