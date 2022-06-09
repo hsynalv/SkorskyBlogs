@@ -12,7 +12,7 @@ slug: "internet-protokol-ve-modelleri"
 cover: "cover3.jpg"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654795553193
+updatedAt: 1654795700876
 
 ---
 
@@ -23,7 +23,8 @@ Tıpkı insanların iletişiminde olduğu gibi bilgisayarlarda kendilerine özg�
 
 Ağ protokolleri, cihazlar arasında mesaj alışverişi için ortak bir biçim ve kurallar kümesi tanımlar. Protokoller, yazılım, donanım veya her ikisinde de uç cihazlar ve aracı cihazlar tarafından uygulanır. Her ağ protokolünün kendi işlevi, biçimi ve iletişim kuralları vardır.
 
-Tablo, bir veya daha fazla ağ üzerinden iletişimi etkinleştirmek için gereken çeşitli iletişim kuralları türlerini listeler.
+Tabloda ağ üzerinde iletişim kurmak için gerekli protokoller listelenmiştir. Hadi onlara bakalım. 
+
 |Protokol Türü|Açıklama  |
 |--|--|
 | Ağ İletişim Protokolleri | Ağ iletişim protkolleri, iki veya daha fazla cihazın bir veya daha fazla ağ üzerinden iletişim kurmasını sağlar. Ethernet teknolojileri ailesi IP, TCP, HTTP ve daha pek çok protokol içerir. |
