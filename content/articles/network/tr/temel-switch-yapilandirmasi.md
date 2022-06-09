@@ -12,7 +12,7 @@ ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
 cover: "cover1.jpg"
 date: "2022-06-09 12:00"
 createdAt: 1654728343247
-updatedAt: 1654782785511
+updatedAt: 1654782908905
 
 ---
 ## Switch Adını Değiştirelim
@@ -73,7 +73,7 @@ komutunu kullanarak vty erişimini etkinleştiriyoruz.
 ```
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# line vty 0 15
-Sw-Floor-1(config-line)# password skorskypassword
+Sw-Floor-1(config-line)# password skorsky-line
 Sw-Floor-1(config-line)# login 
 Sw-Floor-1(config-line)# end
 Sw-Floor-1#
