@@ -3,7 +3,8 @@ tags: []
 ID: "4bfd6bc2-9bf5-458f-a384-5789e098f6db"
 description: "Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. Ethernet prokolleri ve protokol paketleri nelerdir bunlara bakacağız. "
 title: "İnternet Protokol ve Modelleri"
-categories: []
+categories:
+  - "network"
 slug: "internet-protokol-ve-modelleri"
 cover: "cover3.jpg"
 date: "2022-06-09 12:00"
