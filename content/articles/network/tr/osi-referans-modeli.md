@@ -1,7 +1,8 @@
 ---
 title: "OSI Referans Modeli"
 description: "Daha önceki makalemde anlattığım üzere protokoller bilgisayarların iletişimi için olmazsa olmazdır. Şimdi OSI Referans Modelini daha detaylı şekilde inceleyelim."
-categories: []
+categories:
+  - "network"
 slug: "osi-referans-modeli"
 tags: []
 ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
