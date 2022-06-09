@@ -1,6 +1,6 @@
 <template>
   <div class="mt-10">
-    <div class="flex flex-col items-start sm:flex-row pt-12 bg-slate-100">
+    <div class="flex flex-col items-start sm:flex-row pt-12">
       <aside class="hidden px-6 py-6 space-y-8 sm:block w-[200px]" aria-label="Sidebar">
         <div class="">
 
