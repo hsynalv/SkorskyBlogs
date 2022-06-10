@@ -12,7 +12,7 @@ slug: "internet-protokol-ve-modelleri"
 cover: "internet-protokol.png"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654900026278
+updatedAt: 1654900199480
 
 ---
 
@@ -61,13 +61,13 @@ Bu katmanları bir sonraki makalemizde daha ayrıntılı anlatacağım.
 ## TCP/IP Protokol Paketi
 TCP ve IP birleşerek TCP/IP protokol ailesini oluşturmaktadır. Bu sayede bilgisayarlar arasında birden fazla iletişim metodu kullanılabilmektedir. Bu iletişim sırasında kullanılan TCP/IP katmanları ise aşağıdaki gibi belirtilmiştir.
 
-### 1. Katman – Application layer - Uygulama katmanı
+- **1.Katman – Application layer - Uygulama katmanı**
 Uygulama katmanında, veri paketini göndermek isteyen uygulama ve kullandığı dosya biçimi tespit edilerek gönderilen veri paketinin türüne göre farklı protokoller devreye girer (HTTP, SMTP, FTP, Telnet, vs.) ve programlarla Taşıma protokollerinin haberleşmesi sağlanır. Ardından görev artık Taşıma katmanındadır. Taşıma katmanıyla da iletişim portlar aracılığıyla gerçekleşir.
-### 2. Katman – Transport layer -Taşıma katmanı
+- **2.Katman – Transport layer -Taşıma katmanı**
 Taşıma katmanı aslında uçtan uca iletişim ile ilgilenen katmandır. Yani verinin nasıl gönderileceği belirlenir. Ayrıca veri güvenliği ve hata kontrolü gibi işlemler bu katmanda yapılır. TCP ve UDP protokolleri bu katmanda çalışır. Taşıma katmanı, veri paketi gönderirken İnternet katmanı ile veri alırken de Uygulama katmanı ile iletişim halindedir.
-### 3. Katman – Internet layer - İnternet katmanı
+- **3.Katman – Internet layer - İnternet katmanı**
 Bu katmanda verinin kaynaktan hedefe yönlendirilmesi sağlanır. Kaynak IP adresi bu katmanda veriye eklenir. Genel olarak bu katman ağdaki verilen paketlenmesinden, ele alınmasından ve yönlendirilmesinden sorumludur.
-### 4. Katman – Network layer - Ağ katmanı
+- **4. Katman – Network layer - Ağ katmanı**
 Ağ Erişim Katmanı, fiziksel ağa erişim sağlar yani gönderilen verilen son durağıdır. Verilerin fiziksel olarak 1 ve 0’lara dönüştürülerek taşınması sağlanır. Ethernet, FDDI, Token Ring, ATM, OC, HSSI ve hatta Wi-Fi, tüm ağ ara yüzlerine örnektir. Ethernet Ağ Arayüzü Katmanında kullanılan ve veri iletiminin fiziksel görünümünü sağlayan en yaygın kablolu yerel ağ teknolojisidir.
 
 Günümüzde, TCP/IP protokol paketi birçok protokol içerir ve yeni hizmetleri desteklemek için gelişmeye devam eder. Daha popüler olanlardan bazıları şekilde gösterilmiştir.
