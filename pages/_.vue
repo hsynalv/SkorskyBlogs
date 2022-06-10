@@ -109,7 +109,7 @@
       <div class="text-xl font-semibold">Önerilen Bloglar :</div>
       <div class="pt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 text-center w-3/4 mx-auto">
 
-        <BlogCard v-for="article in relatedArticles"
+        <HomeBlogCard v-for="article in relatedArticles"
                   :key="article.id"
                   :title="article.title"
                   :img="'/covers/'+article.cover"
