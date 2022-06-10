@@ -10,7 +10,7 @@ ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
 createdAt: 1654814286182
-updatedAt: 1654901294225
+updatedAt: 1654901323304
 
 ---
 Bir önceki makalede TCP/IP protokol paketini anlatmıştım şimdi sıra OSI Referans Modelinde.
