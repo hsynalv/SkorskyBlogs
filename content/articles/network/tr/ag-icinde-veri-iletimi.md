@@ -1,7 +1,8 @@
 ---
 ID: "5094ab95-478f-4baa-845e-88a1112c34bd"
 description: "OSI referans modelini ve TCP/IP protokol modelini öğrendik ama bunları bilmek, bir ağ üzerinden hareket eden verilerin nasıl kapsüllendiğini öğrendiğinizde kullanışlı olacaktır. Bu makaledeki amacımız verilerin ağ içindeki serüvenine ortak olmak. "
-categories: []
+categories:
+  - "network"
 title: "Ağ İçinde Veri İletimi"
 slug: "ag-icinde-veri-iletimi"
 tags: []
