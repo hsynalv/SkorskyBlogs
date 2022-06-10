@@ -5,7 +5,8 @@ categories:
   - "network"
 title: "Ağ İçinde Veri İletimi"
 slug: "ag-icinde-veri-iletimi"
-tags: []
+tags:
+  - "pdu"
 cover: "cover5.jpg"
 date: "2022-06-11 12:00"
 createdAt: 1654903589661
