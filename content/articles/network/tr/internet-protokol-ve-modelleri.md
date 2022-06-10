@@ -12,9 +12,10 @@ slug: "internet-protokol-ve-modelleri"
 cover: "internet-protokol.png"
 date: "2022-06-09 19:00"
 createdAt: 1654792441731
-updatedAt: 1654798113054
+updatedAt: 1654900026278
 
 ---
+
 
 Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. İnternet protokolleri ve protokol paketleri nelerdir bunlara bakacağız. 
 
@@ -37,6 +38,19 @@ Protokol paketi, kapsamlı ağ iletişim hizmetleri sağlamak için birlikte ça
 
 Günümüzde en çok bilinen iki protokol modeli OSI Referans Modeli ve TCP/IP Protokol Paketidir. 
 
+## Katmanlı Model Kullanmanın Avantajları
+
+Bir ağın nasıl çalıştığı gibi karmaşık kavramları açıklamak ve anlamak zor olabilir. Bu nedenle, bir ağın işlemlerini yönetilebilir katmanlara dönüştürmek için katmanlı bir model kullanılır.
+
+Ağ protokollerini ve işlemlerini tanımlamak için katmanlı bir model kullanmanın faydaları şunlardır:
+
+- Belirli bir katmanda işleyen protokoller uyarınca davrandıkları tanımlı bilgilere  üst ve alt katmanlarla tanımlı bir arayüze sahip olduğu için protokol tasarımına yardımcı olmak
+- Farklı satıcıların ürünleri birlikte çalışabildiği için rekabeti teşvik etmek
+- Bir katmandaki teknoloji veya yetenek değişikliklerinin yukarıdaki ve altındaki diğer katmanları etkilemesini önlemek
+- Ağ işlevlerini ve yeteneklerini tanımlamak için ortak bir dil sağlamak
+
+![tcpip-osi](https://skorskyfiles.blob.core.windows.net/$web/articles/internet-protokol-ve-modelleri/tcp-%C4%B1p-vs-osi.png)
+
 ## OSI Referans Modeli
 
 OSI modeli (Open System Interconnection) yedi katmandaki protokolleri uygulamak için bir bilgisayar ağ çerçevesi tanımlar. Ağ oluşturma terimlerindeki bir protokol, bir tür müzakere ve iki ağ kuruluşu arasında kuraldır. OSI modelini ISO International Organization for Standardization geliştirmiştir. Amaç aslında iki bilgisayar arasındaki iletişimin nasıl olacağını tanımlamaktan başka bir şey değildir.
@@ -47,13 +61,18 @@ Bu katmanları bir sonraki makalemizde daha ayrıntılı anlatacağım.
 ## TCP/IP Protokol Paketi
 TCP ve IP birleşerek TCP/IP protokol ailesini oluşturmaktadır. Bu sayede bilgisayarlar arasında birden fazla iletişim metodu kullanılabilmektedir. Bu iletişim sırasında kullanılan TCP/IP katmanları ise aşağıdaki gibi belirtilmiştir.
 
-1. Katman – Application layer - Uygulama katmanı
-2. Katman – Transport layer -Taşıma katmanı
-3. Katman – Internet layer - İnternet katmanı
-4. Katman – Network layer - Ağ katmanı
+### 1. Katman – Application layer - Uygulama katmanı
+Uygulama katmanında, veri paketini göndermek isteyen uygulama ve kullandığı dosya biçimi tespit edilerek gönderilen veri paketinin türüne göre farklı protokoller devreye girer (HTTP, SMTP, FTP, Telnet, vs.) ve programlarla Taşıma protokollerinin haberleşmesi sağlanır. Ardından görev artık Taşıma katmanındadır. Taşıma katmanıyla da iletişim portlar aracılığıyla gerçekleşir.
+### 2. Katman – Transport layer -Taşıma katmanı
+Taşıma katmanı aslında uçtan uca iletişim ile ilgilenen katmandır. Yani verinin nasıl gönderileceği belirlenir. Ayrıca veri güvenliği ve hata kontrolü gibi işlemler bu katmanda yapılır. TCP ve UDP protokolleri bu katmanda çalışır. Taşıma katmanı, veri paketi gönderirken İnternet katmanı ile veri alırken de Uygulama katmanı ile iletişim halindedir.
+### 3. Katman – Internet layer - İnternet katmanı
+Bu katmanda verinin kaynaktan hedefe yönlendirilmesi sağlanır. Kaynak IP adresi bu katmanda veriye eklenir. Genel olarak bu katman ağdaki verilen paketlenmesinden, ele alınmasından ve yönlendirilmesinden sorumludur.
+### 4. Katman – Network layer - Ağ katmanı
+Ağ Erişim Katmanı, fiziksel ağa erişim sağlar yani gönderilen verilen son durağıdır. Verilerin fiziksel olarak 1 ve 0’lara dönüştürülerek taşınması sağlanır. Ethernet, FDDI, Token Ring, ATM, OC, HSSI ve hatta Wi-Fi, tüm ağ ara yüzlerine örnektir. Ethernet Ağ Arayüzü Katmanında kullanılan ve veri iletiminin fiziksel görünümünü sağlayan en yaygın kablolu yerel ağ teknolojisidir.
 
 Günümüzde, TCP/IP protokol paketi birçok protokol içerir ve yeni hizmetleri desteklemek için gelişmeye devam eder. Daha popüler olanlardan bazıları şekilde gösterilmiştir.
-![tcp-ıp-protokol-paketi](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70b7e71d-cdfd-44f8-a924-a1f0ddd5b0be/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220609T150718Z&X-Amz-Expires=86400&X-Amz-Signature=1e3bfefc2f1ebeb97d02d279aac85e14e75e5abc243ee082b36acd5aaf31ac02&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
+![tcp-ıp-protokol-paketi](https://skorskyfiles.blob.core.windows.net/$web/articles/internet-protokol-ve-modelleri/tcp-%C4%B1p-protokol-paketi.png)
 
 Yukarıda bahsedilen protokolleri her katman için biraz daha detaylı inceleyelim.
 
