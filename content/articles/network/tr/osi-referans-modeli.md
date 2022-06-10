@@ -10,10 +10,10 @@ ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
 createdAt: 1654814286182
-updatedAt: 1654814928008
+updatedAt: 1654901294225
 
 ---
-Daha önceki makalemde anlattığım üzere protokoller bilgisayarların iletişimi için olmazsa olmazdır. Şimdi OSI Referans Modelini daha detaylı şekilde inceleyelim.
+Bir önceki makalede TCP/IP protokol paketini anlatmıştım şimdi sıra OSI Referans Modelinde.
 
 OSI'den önce firmalar kendilerine özel ağ sistemleri geliştirip bunları bir paket halinde müşteriye sunuyorlardı. Fakat bu çok pahalıydı ve dışarıya kapalı bir sistem oluşturmaktaydı. Aslında kendi içlerinde çok sağlıklı çalışabilmelerine karşın kendi dışındaki ağlarla iletişim kurmaları çok zor ya da imkânsızdı. Örneğin IBM işletim sistemleri, IBM network aygıtları kullanarak kendi aralarında iletişim kurabiliyorlardı.
 
@@ -28,7 +28,7 @@ Bu katmanlar sırasıyla;
 6.  Presentation (Sunu Katmanı)
 7.  Application (Uygulama Katmanı)
 
-![osi-reference-model](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f2e2410-4970-40a4-b800-45bc4441b78f/osi-referans_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45/20220609/us-west-2/s3/aws4_request&X-Amz-Date=20220609T220420Z&X-Amz-Expires=86400&X-Amz-Signature=3c6d2e25c22c52cf39a37d773348dbfa4f462f196bd599054fcd72a764355d0e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22osi-referans_1.jpg%22&x-id=GetObject)
+![osi-reference-model](https://skorskyfiles.blob.core.windows.net/$web/articles/osi-referans-modeli/osi-referans_1.jpg)
 
 OSI modeline göre veri uç cihazdan çıkarak her bir katmana uğrar ve fiziksel kablo aracılığı ile aynı katmanlardan yeniden geçerek server-host cihaza ulaşır.
 
@@ -108,6 +108,22 @@ Uygulama katmanı, kullanıcıya en yakın olan katmandır. Bizler bu katmanda �
 - Kullanıcın Google.com’u çağırdığını Presentation Layer’e bildirir.(Diğer katmanlarla tek ilişkisi budur)
 >  FTP, HTTP, Telnet gibi protokoller burada çalışır.
 
-## Kısaca
+## Özetle OSI
 
 OSI kavramsal bir modeldir ne OSI yazılımı nede OSI donanımı diye birşey göremeyiz. Ancak yazılım ve donanım üreticileri bu modelin tanımlandığı kurallar çevresinde üretim yaparlar ve bu sayede ürünler birbiri ile uyumlu hale gelir.
+
+## OSI ve TCP/IP Modellerini Karşılaştıralım
+
+TCP / IP protokol paketini oluşturan protokoller OSI referans modeli açısından da açıklanabilir. OSI modelinde, TCP / IP modelinin ağ erişim katmanı ve uygulama katmanı, bu katmanlarda meydana gelmesi gereken ayrı işlevleri açıklamak için ayrıca bölünmüştür.
+
+Ağ erişim katmanında, TCP / IP protokol paketi, fiziksel bir ortam üzerinden iletim yaparken hangi protokollerin kullanılacağını belirlemez; sadece internet katmanından fiziksel ağ protokollerine geçişi açıklar. OSI 1 ve 2 Katmanları medyaya erişim için gereken yordamları ve ağ üzerinden veri göndermek için fiziksel yolları ele alır.
+
+Temel benzerlikler taşıma ve ağ katmanlarıdır. Ancak bu iki model, katmanların üstündeki ve altındaki katmanlarla ilişki kurma şeklinde farklılık gösterir.
+
+- OSI 'nin 3.Katmanı olan ağ katmanı, doğrudan TCP/IP'nin internet katmanıyla eşleşir. Bu katman, mesajları bir ağ üzerinden yönlendiren protokolleri tanımlamak için kullanılır.
+- OSI'nin 4.Katmanı olan taşıma katmanı, doğrudan TCP/IP'nin taşıma katmanıyla eşleşir. Bu katman, kaynak ve hedef hostlar arasında sıralı ve güvenilir veri iletimi sağlayan genel hizmetleri ve işlevleri tanımlar.
+- TCP / IP uygulama katmanı, çeşitli son kullanıcı uygulamalarına özel işlevsellik sağlayan çeşitli protokoller içerir. OSI modelinin 5, 6 ve 7. Katmanları, ağ üzerinde çalışan uygulamalar üretmek için uygulama yazılımı geliştiricileri ve satıcıları için referans olarak kullanılır.
+- TCP/IP ve OSI modelleri, çeşitli katmanlardaki protokollere atıfta bulunulduğunda yaygın olarak kullanılır. OSI modeli, veri bağlantısı katmanını fiziksel katmandan ayırdığından, bu alt katmanlara atıfta bulunurken yaygın olarak kullanılır.
+
+
+
