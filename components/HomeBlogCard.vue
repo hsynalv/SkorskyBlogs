@@ -29,6 +29,18 @@
           <a @click.prevent="$emit('changeCurrentTag', tag)" :href="'/blog?tag='+tag" v-for="tag in tags" :key="tag" class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium">#{{tag}}</a>
         </p>
       </div>
+
+    <div class="center">
+      <nuxt-link class="relative inline-block group focus:outline-none focus:ring" :to="postLink">
+        <span class="custom-radius absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
+        <span class="relative inline-block px-3 py-1 text-sm font-bold tracking-widest text-black uppercase custom-border border-current group-active:text-opacity-75">
+           Devamını Oku
+      </span>
+      </nuxt-link>
+    </div>
+
+
+
   </div>
 </template>
 <script>
@@ -61,4 +73,19 @@ export default {
 }
 </script>
 <style scoped>
+.custom-border{
+  border-width: 1.5px;
+  border-radius: 5px;
+}
+.custom-radius{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.center{
+  align-items: center;
+  text-align: center;
+}
+.text-overflow{
+  overflow: hidden;
+}
 </style>
