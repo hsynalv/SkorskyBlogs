@@ -12,7 +12,7 @@ ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
 cover: "cover1.jpg"
 date: "2022-06-09 12:00"
 createdAt: 1654728343247
-updatedAt: 1654782908905
+updatedAt: 1654900801500
 
 ---
 ## Switch Adını Değiştirelim
@@ -29,7 +29,7 @@ Varsayılan isim, daha açıklayıcı bir isimle değiştirilmelidir. İsimler a
 
 Aşağıda örnek bir switch adlandırması görmekteyiz. 
 
-![örnek-switch-adlandırması](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8bca2c1e-e069-4769-8f4c-9c513df32825/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T211755Z&X-Amz-Expires=86400&X-Amz-Signature=ae65ec7eb13e839b68921c2d02bc01810d9085d3deb45d78d8e8a93ad17e65ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![örnek-switch-adlandırması](https://skorskyfiles.blob.core.windows.net/$web/articles/temel-switch-yapilandirmasi/ornek-adlandirma.png)
 
 İsimlendirmeler bu şekilde tanımlayıcı olduğu takdirde ilerleyen aşamalarda işimiz çok daha kolay hale gelecektir.
 
@@ -80,7 +80,7 @@ Sw-Floor-1#
 ```
 
 Buraya kadar her şey çok güzel ancak cihaz üzerinde çalışan yapılandırma dosyasında varsayılan olarak verilen parolalar açık olarak yer almaktadır bu da üst düzey bir güvenlik açığı yaratmaktadır. Aşağıda encrypte edilmemiş yapılandırma dosyasını görmektesiniz. 
-![şifresiz config](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5cb85708-594f-480e-b6f8-7c4854476218/capture_20220609011538057.bmp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T221616Z&X-Amz-Expires=86400&X-Amz-Signature=8cea65ba62d4a9a22415a954effbae7b13885ee52be28b118259b3874c9c0c8f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22capture_20220609011538057.bmp%22&x-id=GetObject)
+![şifresiz config](https://skorskyfiles.blob.core.windows.net/$web/articles/temel-switch-yapilandirmasi/sifresiz-config.png)
 
 Görüldüğü üzere girilen tüm parolalar açıkça görülebilir halde şimdi bu parolaları encrypte edelim.
 
@@ -97,12 +97,12 @@ Cihazda çalışan yapılandırmayı görmek için <code>show running-config</co
 Sw-Floor-1(config)# end
 Sw-Floor-1# show running-config
 ```
-![encrypte password](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d530255c-10cd-49e6-9371-1612dce60dd0/capture_20220609012157159.bmp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T222232Z&X-Amz-Expires=86400&X-Amz-Signature=fae55173382260d8be969f313c2d0413e9c7f0d13b040feea6ed73d9450815f7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22capture_20220609012157159.bmp%22&x-id=GetObject)
+![encrypte password](https://skorskyfiles.blob.core.windows.net/$web/articles/temel-switch-yapilandirmasi/sifreli-config.png)
 
 Artık şifrelerde encrypte olmuş halde. Durmak yok ilerlemeye devam. 
 
 ## Banner Mesajları Gösterelim
-![banner](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2cc48ce8-6fed-4517-867b-d905c7a9af8a/capture_20220609013000109.bmp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220608%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220608T223112Z&X-Amz-Expires=86400&X-Amz-Signature=93f04bea494ea860d2ca6e0042d63b4126b95b5f487baa9be09a60d091187ea5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22capture_20220609013000109.bmp%22&x-id=GetObject)
+![banner](https://skorskyfiles.blob.core.windows.net/$web/articles/temel-switch-yapilandirmasi/banner.png)
 
 Cisco cihazına ilk eriştiğimizde yukarıdaki gibi bir banner mesajı verseydik güzel olmaz mıydı? Evet ben de aynı şekilde düşündüm. Hadi bir banner mesajı verelim.
 
