@@ -8,9 +8,10 @@ slug: "ag-icinde-veri-iletimi"
 tags:
   - "pdu"
   - "data-transmission"
-cover: "cover5.jpg"
+cover: "data-transmission.png"
 date: "2022-06-11 12:00"
 createdAt: 1654903589661
+updatedAt: 1654903992548
 
 ---
 OSI referans modelini ve TCP/IP protokol modelini öğrendik ama bunları bilmek, bir ağ üzerinden hareket eden verilerin nasıl kapsüllendiğini öğrendiğinizde kullanışlı olacaktır. Bu makaledeki amacımız verilerin ağ içindeki serüvenine ortak olmak. 
