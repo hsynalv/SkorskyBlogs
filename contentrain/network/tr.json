@@ -109,7 +109,9 @@
     "updatedAt": 1654939810942
   },
   {
-    "categories": [],
+    "categories": [
+      "network"
+    ],
     "title": "Data Link Katmanı",
     "tags": [
       "osi",
