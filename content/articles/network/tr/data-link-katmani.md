@@ -1,5 +1,6 @@
 ---
-categories: []
+categories:
+  - "network"
 title: "Data Link Katmanı"
 tags:
   - "osi"
