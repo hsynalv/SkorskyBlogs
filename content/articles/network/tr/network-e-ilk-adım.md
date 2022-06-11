@@ -1,6 +1,7 @@
 ---
 slug: "network-e-ilk-adım"
-tags: []
+tags:
+  - "topology"
 categories: []
 description: "network'e ilk adım"
 title: "Network'e İlk Adım"
