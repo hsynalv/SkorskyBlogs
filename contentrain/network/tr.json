@@ -112,7 +112,8 @@
     "categories": [],
     "title": "Data Link Katmanı",
     "tags": [
-      "osi"
+      "osi",
+      "data-link-layer"
     ],
     "slug": "data-link-katmani",
     "description": "data link katmanını inceliyoruz.",
