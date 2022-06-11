@@ -2,6 +2,7 @@
 slug: "network-e-ilk-adım"
 tags:
   - "topology"
+  - "lan-wan"
 categories: []
 description: "network'e ilk adım"
 title: "Network'e İlk Adım"
