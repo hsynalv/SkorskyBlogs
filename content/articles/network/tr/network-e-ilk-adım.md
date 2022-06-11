@@ -11,17 +11,16 @@ ID: "d66535f8-4397-4e74-b221-2c2f9189b885"
 cover: "network.png"
 date: "2022-06-07 12:00"
 createdAt: 1654939008965
-updatedAt: 1654939118842
+updatedAt: 1654939810942
 
 ---
 Çoook uzun sürecek bir makale serisine başlıyoruz. CCNA-1 eğitimine paralel gidecek olan makale serimiz siber güvenlik ve network security çalışmak isteyenlere ilk adım için mükemmer bir fırsat olacağına eminim. O zaman başlayalım
 
 ## Network Bileşenleri
-Bir ağa bağlanan ve ağ iletişimine katılan tüm bilgisayarlar, ana bilgisayarlar (host) olarak adlandırılırlar. Host'lar son aygıtlar olarak adlandırılabilir. Bazı hostlar da istemciler olarak adlandırılır. Bununla birlikte, host terimi özellikle ağ üzerinde iletişim amacıyla bir numara atanan cihazları ifade eder. Bu numara, belirli bir ağdaki hostu tanımlar. Bu numaraya Internet Protokolü (IP) adresi denir. IP adresi, hostu ve bu hostun bağlı olduğu ağı tanımlar.
+Bir ağa bağlanan ve ağ iletişimine katılan tüm bilgisayarlar, ana bilgisayarlar (host) olarak adlandırılırlar. Host'lar uç cihazlar olarak adlandırılabilir. Bazı hostlar da istemciler olarak adlandırılır. Bununla birlikte, host terimi özellikle ağ üzerinde iletişim amacıyla bir numara atanan cihazları ifade eder. Bu numara, belirli bir ağdaki hostu tanımlar. Bu numaraya Internet Protokolü (IP) adresi denir. IP adresi, hostu ve bu hostun bağlı olduğu ağı tanımlar.
 
 Sunucular, ağdaki diğer uç aygıtlara e-posta veya web sayfaları gibi bilgiler sunmalarını sağlayan yazılımlara sahip bilgisayarlardır. Her hizmet ayrı sunucu yazılımı gerektirir. Örneğin, bir sunucunun ağa web hizmetleri sunabilmesi için, web sunucu yazılımı gereklidir. Sunucu yazılımına sahip bir bilgisayar birçok farklı istemciye aynı anda hizmet sağlayabilir.
 
-Daha önce de belirtildiği gibi, istemciler bir host türüdür. Şekilde gösterildiği gibi, istemciler, sunucudan elde edilen bilgileri istemek ve görüntülemek için yazılıma sahiptirler.
 ![host-and-server](https://skorskyfiles.blob.core.windows.net/$web/articles/gunumuzde-network/host-andserver.png)
 
 ### End Devices - Uç Cihazlar
@@ -45,7 +44,7 @@ Aracı ağ aygıtları bu işlevlerin bir kısmını veya tümünü gerçekleşt
 ### Network Media
 İletişim medya aracılığıyla bir ağ üzerinden iletilir. Medya, mesajın kaynaktan hedefe geçtiği kanalı sağlar.
 
-Modern ağlar, şekilde gösterildiği gibi cihazları birbirine bağlamak için öncelikle üç tür medya kullanır:
+Modern ağlar cihazları birbirine bağlamak için öncelikle üç tür medya kullanır:
 
 -   **Kablolardaki metal teller** ⇒ Veriler elektriksel impulslara kodlanır.
 -   **Kablolardaki cam veya plastik lifler (fiber optik kablo)** ⇒Veriler ışık darbelerine kodlanır.
@@ -74,7 +73,7 @@ Mantıksal topoloji diyagramları, cihazları, portları ve ağın adresleme şe
 
 Artık ağları oluşturan bileşenlere ve bunların fiziksel ve mantıksal topolojilerdeki gösterimlerine aşina olduğumuza göre birçok farklı ağ türüne geçebiliriz.
 
-Ağ altyapıları aşağıdakilere göre büyük ölçüde değişiklik gösterir:
+Network türleri aşağıdakilere göre büyük ölçüde değişiklik gösterir:
 
 -   Kapsanan alanın boyutu
 -   Bağlı kullanıcı sayısı
