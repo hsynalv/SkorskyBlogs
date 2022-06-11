@@ -1,7 +1,8 @@
 ---
 categories: []
 title: "Data Link Katmanı"
-tags: []
+tags:
+  - "osi"
 slug: "data-link-katmani"
 description: "data link katmanını inceliyoruz."
 ID: "0fc4ee6c-0c02-4817-870c-3c571bd9652c"
