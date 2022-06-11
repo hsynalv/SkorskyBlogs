@@ -8,9 +8,10 @@ categories:
 description: "network'e ilk adım"
 title: "Network'e İlk Adım"
 ID: "d66535f8-4397-4e74-b221-2c2f9189b885"
-cover: "cover3.jpg"
+cover: "network.png"
 date: "2022-06-07 12:00"
 createdAt: 1654939008965
+updatedAt: 1654939118842
 
 ---
 Çoook uzun sürecek bir makale serisine başlıyoruz. CCNA-1 eğitimine paralel gidecek olan makale serimiz siber güvenlik ve network security çalışmak isteyenlere ilk adım için mükemmer bir fırsat olacağına eminim. O zaman başlayalım
