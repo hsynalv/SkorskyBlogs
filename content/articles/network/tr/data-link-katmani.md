@@ -5,9 +5,10 @@ tags: []
 slug: "data-link-katmani"
 description: "data link katmanını inceliyoruz."
 ID: "0fc4ee6c-0c02-4817-870c-3c571bd9652c"
-cover: "cover3.png"
+cover: "Data-Link-Layer.jpg"
 date: "2022-06-12 12:00"
 createdAt: 1654983046596
+updatedAt: 1654983415568
 
 ---
 
