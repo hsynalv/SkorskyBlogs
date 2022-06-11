@@ -3,7 +3,8 @@ slug: "network-e-ilk-adım"
 tags:
   - "topology"
   - "lan-wan"
-categories: []
+categories:
+  - "network"
 description: "network'e ilk adım"
 title: "Network'e İlk Adım"
 ID: "d66535f8-4397-4e74-b221-2c2f9189b885"
