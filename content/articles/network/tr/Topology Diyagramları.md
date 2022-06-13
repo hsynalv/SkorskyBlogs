@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - "topology"
 description: "Topoloji diyagramları"
 title: "Topoloji Diyagramları"
 ID: "b08cf121-a883-424d-816c-12f661405026"
