@@ -11,7 +11,7 @@ slug: "Topology Diyagramları"
 cover: "topologies.png"
 date: "2022-06-13 12:00"
 createdAt: 1655159511772
-updatedAt: 1655159859883
+updatedAt: 1655160348702
 
 ---
 Topoloji diyagramlarına daha önceki [Network'e ilk Adım](https://skorskyblog.me/network/tr/network-e-ilk-ad%C4%B1m#topoloji-diyagramlar%C4%B1)
@@ -111,15 +111,15 @@ Bu topolojide her cihaz, her iki tarafındaki iki cihaza bağlanır. Bir cihazı
 
 ## WAN Topolojileri
 
-- ** Point to Point**
+-  **Point to Point**
 Bu en basit ve en yaygın WAN topolojisidir. İki uç nokta arasında kalıcı bir bağlantıdan oluşur.
 
 Bir kaynak ve hedef düğüm, birden çok aracı cihaz kullanılarak dolaylı olarak bir coğrafi mesafe boyunca birbirine bağlanabilir. Ancak, ağda fiziksel cihazların kullanımı, şekilde gösterildiği gibi mantıksal topolojiyi etkilemez. Şekilde, ara fiziksel bağlantıların eklenmesi mantıksal topolojiyi değiştirmeyebilir. Mantıksal noktadan noktaya bağlantı aynıdır.
 ![noktadan-noktaya](https://skorskyfiles.blob.core.windows.net/$web/articles/topolojiler/noktadan-noktaya.png)
-- ** Hub and Spoke**
+- **Hub and Spoke**
 Merkezi yerleşkenin noktadan noktaya bağlantıları kullanarak şube tesislerini birbirine bağladığı yıldız topolojisi WAN sürümüdür. Şube siteleri merkezi siteden geçmeden diğer şube siteleriyle veri alışverişi yapamaz.
 ![hub-and-spoke](https://skorskyfiles.blob.core.windows.net/$web/articles/topolojiler/hub-and-spoke.png)
-- ** Mesh - Örgü**
+- **Mesh - Örgü**
 Bu topoloji yüksek kullanılabilirlik sağlar, ancak her uç sistemin diğer tüm sistemlerle birbirine bağlanmasını gerektirir. Dolayısıyla yönetimsel ve fiziksel maliyetler yüksek olabilir. Her bağlantı temelde diğer düğüme noktadan noktaya bağlantıdır.
 ![mesh](https://skorskyfiles.blob.core.windows.net/$web/articles/topolojiler/mesh.png)
 > Hibrit, herhangi bir topolojinin bir varyasyonu veya kombinasyonudur. Örneğin, kısmi bir mesh, bazılarının, ancak hepsinin değil, uç aygıtlarının birbirine bağlı olduğu bir karma topolojidir.
