@@ -5,7 +5,8 @@ tags:
 description: "Topoloji diyagramları"
 title: "Topoloji Diyagramları"
 ID: "b08cf121-a883-424d-816c-12f661405026"
-categories: []
+categories:
+  - "network"
 slug: "Topology Diyagramları"
 cover: "cover1.jpg"
 date: "2022-06-13 12:00"
