@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - "deneme"
 slug: "sunt-precando-quinque-aequora-colleit-est"
 ID: "844576f6-9238-4435-ad5d-d5ce2d1d1646"
 description: "Sunt precando quinque aequora collegit est"
