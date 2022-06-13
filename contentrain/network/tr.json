@@ -128,7 +128,8 @@
   },
   {
     "tags": [
-      "topology"
+      "topology",
+      "osi"
     ],
     "description": "Topoloji diyagramları",
     "title": "Topoloji Diyagramları",
