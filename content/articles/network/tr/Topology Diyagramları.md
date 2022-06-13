@@ -11,7 +11,7 @@ slug: "Topology Diyagramları"
 cover: "topologies.png"
 date: "2022-06-13 12:00"
 createdAt: 1655159511772
-updatedAt: 1655160348702
+updatedAt: 1655160616987
 
 ---
 Topoloji diyagramlarına daha önceki [Network'e ilk Adım](https://skorskyblog.me/network/tr/network-e-ilk-ad%C4%B1m#topoloji-diyagramlar%C4%B1)
@@ -126,11 +126,11 @@ Bu topoloji yüksek kullanılabilirlik sağlar, ancak her uç sistemin diğer t�
 ## Half and Full-Duplex İletişim
 LAN topolojilerini anlatırken dubleks iletişimi anlamak önemlidir, çünkü iki cihaz arasındaki veri iletiminin yönünü ifade eder. İki yaygın dubleks modu vardır.
 
-### Half-duplex communication
+**Half-duplex communication**
 
 Birbirine bağlanmış iki cihaz veri iletimi yaparken aynı anda hem veri gönderip hem veri alamaz. Sadece tek yönlü iletişim vardır. Veri göndermek için önce gelen verinin sonlanmasını beklemek zorundadır. . Ethernet hub'lu WLAN'lar ve eski veri yolu topolojileri tek yönlü modu kullanır. Tek Yönlü, paylaşılan medyada tek bir aygıtın aynı anda göndermesine veya almasına izin verir. 
 
-### Full-duplex communication
+**Full-duplex communication**
 
 Birbirine bağlanmış iki cihaz veri iletimi yaparken aynı anda hem veri gönderip hem veri alabilir. Çift yönlü iletişim vardır. Ethernet Switch'leri varsayılan olarak tam çift yönlü modda çalışır, ancak Ethernet hub'ı gibi bir aygıta bağlandığında tek yönlü olarak çalışabilirler.
 ![half-and-full-duplex](https://skorskyfiles.blob.core.windows.net/$web/articles/topolojiler/half_full_duplex.png)
