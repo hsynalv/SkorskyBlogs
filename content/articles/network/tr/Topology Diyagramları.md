@@ -8,10 +8,10 @@ ID: "b08cf121-a883-424d-816c-12f661405026"
 categories:
   - "network"
 slug: "Topology Diyagramları"
-cover: "cover1.jpg"
+cover: "topologies.png"
 date: "2022-06-13 12:00"
 createdAt: 1655159511772
-updatedAt: 1655159535168
+updatedAt: 1655159859883
 
 ---
 Topoloji diyagramlarına daha önceki [Network'e ilk Adım](https://skorskyblog.me/network/tr/network-e-ilk-ad%C4%B1m#topoloji-diyagramlar%C4%B1)
