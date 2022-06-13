@@ -5,7 +5,8 @@ slug: "sunt-precando-quinque-aequora-colleit-est"
 ID: "844576f6-9238-4435-ad5d-d5ce2d1d1646"
 description: "Sunt precando quinque aequora collegit est"
 title: "Sunt precando quinque aequora collegit est"
-categories: []
+categories:
+  - "network"
 cover: "cover1.jpg"
 date: "2022-06-13 12:00"
 createdAt: 1655152268400
