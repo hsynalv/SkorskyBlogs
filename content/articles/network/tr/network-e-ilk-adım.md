@@ -11,7 +11,7 @@ ID: "d66535f8-4397-4e74-b221-2c2f9189b885"
 cover: "network.png"
 date: "2022-06-07 12:00"
 createdAt: 1654939008965
-updatedAt: 1654939810942
+updatedAt: 1655198365163
 
 ---
 Çoook uzun sürecek bir makale serisine başlıyoruz. CCNA-1 eğitimine paralel gidecek olan makale serimiz siber güvenlik ve network security çalışmak isteyenlere ilk adım için mükemmer bir fırsat olacağına eminim. O zaman başlayalım
@@ -63,9 +63,11 @@ Yukarıda her bir bileşeni gösterirken yaygın olarak gösterilen çizimleri v
 ### Topoloji Diyagramları
 
 Topoloji diyagramları, bir ağ ile çalışan herkes için zorunlu belgelerdir. Ağın nasıl bağlandığına dair görsel bir harita sunarlar. Fiziksel ve mantıksal olmak üzere iki tür topoloji diyagramı vardır.
+
 **Fizksel Topoloji Diyagramları**
 Fiziksel topoloji diyagramları, aracı cihazların fiziksel konumunu ve kablo kurulumunu gösterir. Bu cihazların bulunduğu odaların bu fiziksel topolojide etiketlendiğini görebilirsiniz.
 ![fiziksel-topoloji](https://skorskyfiles.blob.core.windows.net/$web/articles/gunumuzde-network/fiziksel-topoloji.png)
+
 **Mantıksal Topoloji Diyagramları**
 Mantıksal topoloji diyagramları, cihazları, portları ve ağın adresleme şemasını göstermektedir. Hangi uç cihazların hangi aracı cihazlara bağlandığını ve hangi medyanın kullanıldığını görebilirsiniz.
 ![mantiksal-topoloji](https://skorskyfiles.blob.core.windows.net/$web/articles/gunumuzde-network/mantiksal-topoloji.png)
