@@ -10,7 +10,7 @@ ID: "fc5ebf74-0a07-4426-90f6-efd2ef75d9ac"
 cover: "osi-model.png"
 date: "2022-06-10 12:00"
 createdAt: 1654814286182
-updatedAt: 1654901323304
+updatedAt: 1655498202536
 
 ---
 Bir önceki makalede TCP/IP protokol paketini anlatmıştım şimdi sıra OSI Referans Modelinde.
@@ -52,10 +52,12 @@ Gönderim işleminden önce ortamın özelliklerine karar verilmelidir ki işte 
 -   Veri bağlantı katmanının büyük bir bölümü network kartı içinde gerçekleşir.
 -   Veri bağlantı katmanı ağ üzerindeki diğer bilgisayarları tanımlama, kablonun o anda kimin tarafından kullanıldığının tespiti ve fiziksel katmandan gelen verinin hatalara karşı kontrolü görevini yerine getirir.
 -   Veri bağlantısı katmanı iki alt bölüme ayrılır:
-
+- 
 Media Access Control (MAC) and Logical Link Control (LLC)
 
-MAC alt katmanı veriyi hata kontrol kodu(CRC), alıcı ve gönderenin MAC adresleri ile beraber paketler ve fiziksel katmana aktarır. Alıcı tarafta da bu işlemleri tersine yapıp veriyi veri bağlantısı içindeki ikinci alt katman olan LLC’ye aktarmak görevi yine MAC alt katmanına aittir. LLC alt katmanı bir üst katman olan ağ katmanı için geçiş görevi görür. Protokole özel mantıksal portlar oluşturur (Service Access Points, SAPs gibi). Böylece kaynak makinada ve hedef makinada aynı protokoller iletişime geçebilir (örneğin TCP/IP←>TCP/IP). LLC ayrıca veri paketlerinden bozuk gidenlerin tekrar gönderilmesinden sorumludur. Flow Control yani alıcının işleyebileğinden fazla veri paketi gönderilerek boğulmasının engellenmesi de LLC’nin görevidir.
+MAC alt katmanı veriyi hata kontrol kodu(CRC), alıcı ve gönderenin MAC adresleri ile beraber paketler ve fiziksel katmana aktarır. Alıcı tarafta da bu işlemleri tersine yapıp veriyi veri bağlantısı içindeki ikinci alt katman olan LLC’ye aktarmak görevi yine MAC alt katmanına aittir. 
+
+LLC alt katmanı bir üst katman olan ağ katmanı için geçiş görevi görür. Protokole özel mantıksal portlar oluşturur (Service Access Points, SAPs gibi). Böylece kaynak makinada ve hedef makinada aynı protokoller iletişime geçebilir (örneğin TCP/IP←>TCP/IP). LLC ayrıca veri paketlerinden bozuk gidenlerin tekrar gönderilmesinden sorumludur. Flow Control yani alıcının işleyebileğinden fazla veri paketi gönderilerek boğulmasının engellenmesi de LLC’nin görevidir.
 
 Ayrıca switch  2.katmanda çalışan bir cihazdır. Çünkü 2. katmanda tanımlı MAC adreslerini algılayabilirler ve bir porttan gelen veri paketini (yine elektrik sinyalleri halinde) sadece gerekli olan porta yönlendirirler. 
 
