@@ -8,9 +8,10 @@ tags:
   - "osi"
   - "network-layer"
 ID: "9835da93-deb7-4a31-b02e-7248355ec6ac"
-cover: "cover1.jpg"
+cover: "network-layer.png"
 date: "2022-06-20 12:00"
 createdAt: 1655739041908
+updatedAt: 1655739653437
 
 ---
 ## Ağ Katmanı Özellikleri
