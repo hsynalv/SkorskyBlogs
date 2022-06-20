@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:sticky top-0 pt-5 -mt-5">
+    <div class="lg:sticky side-bar pt-5 -mt-5">
         <!-- Desktop Sidebar -->
         <div v-if="toc.length > 0" class="toc hidden lg:block">
             <h3 class="border-b-4 pb-3 mb-3 border-gray-200 text-xl">Konu Başlıkları</h3>
@@ -49,3 +49,10 @@
         },
     };
 </script>
+<style scoped>
+ .side-bar{
+   top: 20%;
+   background-color: #c1cad6;
+   padding: 5%;
+ }
+</style>
