@@ -125,14 +125,6 @@ export default {
   },
   head: {
     title: siteMetaInfo.title,
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: siteMetaInfo.description,
-      },
-      {name: "robots", content: "noindex"},
-    ],
   },
 };
 </script>

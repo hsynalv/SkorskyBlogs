@@ -213,7 +213,7 @@ export default {
         ])
         .where( { categories: { $contains: "network" } } )
         .limit(3)
-        .sortBy("date", "desc")
+        .sortBy("date", "asc")
         .fetch();
 
     const softwareArticles = await $content("articles", {deep: true}, params.slug)
@@ -230,7 +230,7 @@ export default {
         ])
         .where( { categories: { $contains: "software" } } )
         .limit(3)
-        .sortBy("date", "desc")
+        .sortBy("date", "asc")
         .fetch();
 
     return {
