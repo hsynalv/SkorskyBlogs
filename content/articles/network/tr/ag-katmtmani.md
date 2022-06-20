@@ -1,6 +1,7 @@
 ---
 title: "Ağ Katmanı"
-categories: []
+categories:
+  - "network"
 description: "Ağ Katmanı"
 slug: "ag-katmtmani"
 tags: []
