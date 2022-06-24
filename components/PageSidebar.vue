@@ -50,9 +50,12 @@
     };
 </script>
 <style scoped>
- .side-bar{
-   top: 20%;
-   background-color: #c1cad6;
-   padding: 5%;
- }
+@media screen and (min-width: 1024px) {
+  .side-bar{
+    top: 20%;
+    background-color: #c1cad6;
+    padding: 5%;
+  }
+}
+
 </style>
