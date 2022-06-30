@@ -5,7 +5,8 @@ categories:
 ID: "4b73cc67-ecb9-4ccc-9498-218af735459c"
 description: "network-tehditleri"
 title: "Ağ Tehditleri ve Zararlı Yazılımlar"
-tags: []
+tags:
+  - "malware"
 cover: "malware.png"
 date: "2022-07-01"
 createdAt: 1656629450258
