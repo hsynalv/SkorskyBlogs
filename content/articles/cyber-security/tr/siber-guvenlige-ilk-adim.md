@@ -5,7 +5,8 @@ slug: "siber-guvenlige-ilk-adim"
 description: "siber güvenliğe ilk adım"
 tags:
   - "cyber-security"
-categories: []
+categories:
+  - "cyber-security"
 cover: "cover1.png"
 date: "2022-06-30"
 createdAt: 1656591277308
