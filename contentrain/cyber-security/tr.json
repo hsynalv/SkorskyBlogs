@@ -17,13 +17,13 @@
     "updatedAt": 1656591672462
   },
   {
-    "slug": "network-tehditleri-ve-zararli-yazilimlar",
+    "slug": "zararli-yazilimlar",
     "categories": [
       "cyber-security"
     ],
     "ID": "4b73cc67-ecb9-4ccc-9498-218af735459c",
     "description": "network-tehditleri",
-    "title": "Ağ Tehditleri ve Zararlı Yazılımlar",
+    "title": "Zararlı Yazılımlar",
     "tags": [
       "malware"
     ],
@@ -31,6 +31,6 @@
     "cover": "malware.png",
     "date": "2022-07-01",
     "createdAt": 1656629450258,
-    "updatedAt": 1656629816799
+    "updatedAt": 1656630168394
   }
 ]
