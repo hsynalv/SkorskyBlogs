@@ -1,0 +1,14 @@
+[
+  {
+    "ID": "4a9af399-b0ac-423a-b937-a069cfcd9292",
+    "title": "Siber Güvenliğe İlk adım",
+    "slug": "siber-guvenlige-ilk-adim",
+    "content": "## Siber Güvenlik Nedir?\n\n**Siber güvenlik**; ağlarınızı, aygıtlarınızı, verilerinizi saldırı veya yetkisiz erişime karşı korumak için tasarlanmış teknolojiler, süreçler ve uygulamalardan oluşur. Ayrıca bilgi teknolojisi güvenliği olarak da adlandırılabilir. Siber güvenlik 3 tipik durumu hedef alır:\n\n**Bireyler için** ⇒ Bireylerin güvende hissetmesi ve kişisel verilerinin güvenliğini ve gizliliğini sağlamak için kullanılır.\n**Kurumlar için** ⇒ Kritik sistemlerin iş sürekliliğini (*kritik sistemlerin sürekli çalışır ve ulaşılabilir durumda olması*) ve veri sızıntısını önlemek amacıyla kullanılır. \n**Devletler için** ⇒ Vatandaş, kurum ve devlet sistemlerinin siber tehditlere karşı korunmasını ve veri ihlalinin önlenmesinin sağlar. \n\n\n![siber güvenlik](https://skorskyfiles.blob.core.windows.net/$web/articles/siber%20g%C3%BCvenlik/siber%20g%C3%BCvenlik.jpg)\n\nYukarıda gösterilen Gizlilik, Bütünlük ve Erişebilirlik etmenleri doğru zamanda ve doğru şekilde birleştiği zaman Bilgi Güvenliği ve Siber güvenlik elde edilmiş olur.\n\n**Gizlilik** ⇒ Bilginin yetkisiz kişilerin eline geçmemesi,\n**Bütünlük** ⇒ Bilginin yetkisiz kişilerce değiştirilmemesi\n**Erişilebilirlik** ⇒ Yetkili kişilerin ihtiyaç halinde sistemler ve bilgilere erişebilmesi demektir.\n\n##Siber Güvenlik Ne Değildir?\n\n![siber-guvenlik-ne-degildir](https://skorskyfiles.blob.core.windows.net/$web/articles/siber%20g%C3%BCvenlik/siber-guvenlik-ne-degildir.png)\n\nSiber güvenlik sadece etik hackerlık veya pentesterlık demek değildir. siber güvenlik çatısı oltında birçok alt başlık bulunmaktadır. ",
+    "description": "siber güvenliğe ilk adım",
+    "tags": [],
+    "categories": [],
+    "cover": "cover1.png",
+    "date": "2022-06-30",
+    "createdAt": 1656591277308
+  }
+]
