@@ -7,9 +7,10 @@ tags:
   - "cyber-security"
 categories:
   - "cyber-security"
-cover: "cover1.png"
+cover: "siber-guvenlik.jpg"
 date: "2022-06-30"
 createdAt: 1656591277308
+updatedAt: 1656591374325
 
 ---
 ## Siber Güvenlik Nedir?
