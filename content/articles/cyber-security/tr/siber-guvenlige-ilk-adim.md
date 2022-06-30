@@ -10,25 +10,25 @@ categories:
 cover: "siber-guvenlik.jpg"
 date: "2022-06-30"
 createdAt: 1656591277308
-updatedAt: 1656591639340
+updatedAt: 1656591672462
 
 ---
 ## Siber Güvenlik Nedir?
 
 **Siber güvenlik**; ağlarınızı, aygıtlarınızı, verilerinizi saldırı veya yetkisiz erişime karşı korumak için tasarlanmış teknolojiler, süreçler ve uygulamalardan oluşur. Ayrıca bilgi teknolojisi güvenliği olarak da adlandırılabilir. Siber güvenlik 3 tipik durumu hedef alır:
 
-**Bireyler için** ⇒ Bireylerin güvende hissetmesi ve kişisel verilerinin güvenliğini ve gizliliğini sağlamak için kullanılır.
-**Kurumlar için** ⇒ Kritik sistemlerin iş sürekliliğini (*kritik sistemlerin sürekli çalışır ve ulaşılabilir durumda olması*) ve veri sızıntısını önlemek amacıyla kullanılır. 
-**Devletler için** ⇒ Vatandaş, kurum ve devlet sistemlerinin siber tehditlere karşı korunmasını ve veri ihlalinin önlenmesinin sağlar. 
+- **Bireyler için** ⇒ Bireylerin güvende hissetmesi ve kişisel verilerinin güvenliğini ve gizliliğini sağlamak için kullanılır.
+- **Kurumlar için** ⇒ Kritik sistemlerin iş sürekliliğini (*kritik sistemlerin sürekli çalışır ve ulaşılabilir durumda olması*) ve veri sızıntısını önlemek amacıyla kullanılır. 
+- **Devletler için** ⇒ Vatandaş, kurum ve devlet sistemlerinin siber tehditlere karşı korunmasını ve veri ihlalinin önlenmesinin sağlar. 
 
 
 ![siber güvenlik](https://skorskyfiles.blob.core.windows.net/$web/articles/siber%20g%C3%BCvenlik/siber%20g%C3%BCvenlik.jpg)
 
 Yukarıda gösterilen Gizlilik, Bütünlük ve Erişebilirlik etmenleri doğru zamanda ve doğru şekilde birleştiği zaman Bilgi Güvenliği ve Siber güvenlik elde edilmiş olur.
 
-**Gizlilik** ⇒ Bilginin yetkisiz kişilerin eline geçmemesi,
-**Bütünlük** ⇒ Bilginin yetkisiz kişilerce değiştirilmemesi
-**Erişilebilirlik** ⇒ Yetkili kişilerin ihtiyaç halinde sistemler ve bilgilere erişebilmesi demektir.
+- **Gizlilik** ⇒ Bilginin yetkisiz kişilerin eline geçmemesi,
+- **Bütünlük** ⇒ Bilginin yetkisiz kişilerce değiştirilmemesi
+- **Erişilebilirlik** ⇒ Yetkili kişilerin ihtiyaç halinde sistemler ve bilgilere erişebilmesi demektir.
 
 ## Siber Güvenlik Ne Değildir?
 
