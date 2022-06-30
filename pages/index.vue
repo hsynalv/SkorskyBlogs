@@ -298,7 +298,7 @@ export default {
     return {
       articles,
       networkArticles,
-      softwareArticles,
+      deviceArticles,
       cyberArticles
     };
   },
