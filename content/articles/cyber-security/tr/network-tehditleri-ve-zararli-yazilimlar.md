@@ -1,6 +1,7 @@
 ---
 slug: "network-tehditleri-ve-zararli-yazilimlar"
-categories: []
+categories:
+  - "cyber-security"
 ID: "4b73cc67-ecb9-4ccc-9498-218af735459c"
 description: "network-tehditleri"
 title: "Ağ Tehditleri ve Zararlı Yazılımlar"
