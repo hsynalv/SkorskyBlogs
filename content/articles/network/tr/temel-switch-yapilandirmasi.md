@@ -6,7 +6,7 @@ tags:
 description: "Temel switch yapılandırmalarını yapalım."
 title: "Temel Switch Yapılandırması"
 categories:
-  - "network"
+  - "Switch & Router"
 slug: "temel-switch-yapilandirmasi"
 ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
 cover: "cover1.jpg"
