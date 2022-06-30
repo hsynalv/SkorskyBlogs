@@ -152,7 +152,7 @@
           <section v-if="cyberArticles.length > 0" class="mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto lg:px-4 px-0">
             <div class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">
               <div class="font-montserrat font-medium text-center text-4xl mb-10 text-slate-800 pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
-                Switch & Router
+                Siber Güvenlik
               </div>
             </div>
 
