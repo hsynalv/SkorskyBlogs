@@ -10,6 +10,7 @@ tags:
 cover: "malware.png"
 date: "2022-07-01"
 createdAt: 1656629450258
+updatedAt: 1656629816799
 
 ---
 ## Tehdit, Güvenlik Açığı ve Risk
@@ -33,7 +34,7 @@ Birçok farklı tehdit aktörü vardır kısaca açıklamak gerekirse;
 ## Zararlı Yazılımlar
 Uç cihazlar özellikle kötü amaçlı yazılım saldırılarına eğilimlidir. Verilere, ana bilgisayarlara veya ağlara zarar vermek, bozmak, çalmak veya genel olarak başka bir "kötü" veya gayrimeşru eylemde bulunmak için özel olarak tasarlanmış kod veya yazılımdır. Kötü amaçlı yazılımlar hakkında bilgi sahibi olmak önemlidir, çünkü tehdit aktörleri ve çevrimiçi suçlular, güvenlik açıklarından yararlanmaya yardımcı olmak için kullanıcıları kötü amaçlı yazılım yüklemeleri için sık sık kandırmaya çalışır. Buna ek olarak, kötü amaçlı yazılımlar o kadar hızlı bir şekilde değişir ki, kötü amaçlı yazılımdan koruma yazılımları yeni tehditleri durduracak kadar hızlı güncellenemediğinden, kötü amaçlı yazılımla ilgili güvenlik olayları son derece yaygındır.
 
- ### Virüsler ve Türleri
+ ### Virüsler
   
   Virüs, kendisinin bir kopyasını başka bir programa ekleyerek yayılan bir kötü amaçlı yazılım türüdür. Program çalıştırıldıktan sonra, virüsler bir bilgisayardan diğerine yayılarak bilgisayarlara bulaşır. Çoğu virüsün yayılması için insan yardımına ihtiyacı vardır. Örneğin, birisi virüslü bir USB sürücüsünü bilgisayarına bağladığında, virüs bilgisayara girer. Virüs daha sonra yeni bir USB sürücüsüne bulaşabilir ve yeni bilgisayarlara yayılabilir. Virüsler uzun bir süre uykuda kalabilir ve daha sonra belirli bir saat ve tarihte etkinleşebilir.
 
@@ -87,7 +88,7 @@ Parolalar, e mail adresleri , web tarayıcı geçmişi Sistem bilgileri , log do
 Virüs worms ve trojan'ların tüm işlevlerini bünyesinde barındırır.
 
 Bazı Rootkit türlerini kısaca açıklayalım
-|  |  |
+| Rootkit Türü | İşlevi |
 |--|--|
 | Kernel Rootkit | Çekirdek (Kernel) seviyesinde çalışır |
 | Firmware Rootkit  | Donanıma gömülü işletim sistemlerini hedefler
@@ -117,5 +118,5 @@ Bu liste, internet geliştikçe büyümeye devam edecektir. Yeni kötü amaçlı
 - **Byte-Signature** ⇒ Yazılımın (virüsün) makine dilindeki karşılığından bir bölümü alınarak tanınır.
 - **Hash-Signature** ⇒ Yazılımın **hash** değeri alınarak tanınır . En ufak bir değişiklikte tanınamaz olacağı için risklidir
 - **Heuristic** ⇒ Sezgisel tanıdır . Kodun içeriğinden çok davranışları izlenerek tanınmaya çalışılır Performans ve zaman kaybettirebilir.
-Bu konuyu daha detaylı bir başka makalemizde inceleyeceğiz.
+Bu konuyu daha detaylı bir başka makalemizde inceleyeceğiz.O zamana dek hoşçakalın...
 
