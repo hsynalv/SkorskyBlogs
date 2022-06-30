@@ -10,7 +10,7 @@ categories:
 cover: "siber-guvenlik.jpg"
 date: "2022-06-30"
 createdAt: 1656591277308
-updatedAt: 1656591374325
+updatedAt: 1656591639340
 
 ---
 ## Siber Güvenlik Nedir?
@@ -30,7 +30,7 @@ Yukarıda gösterilen Gizlilik, Bütünlük ve Erişebilirlik etmenleri doğru z
 **Bütünlük** ⇒ Bilginin yetkisiz kişilerce değiştirilmemesi
 **Erişilebilirlik** ⇒ Yetkili kişilerin ihtiyaç halinde sistemler ve bilgilere erişebilmesi demektir.
 
-##Siber Güvenlik Ne Değildir?
+## Siber Güvenlik Ne Değildir?
 
 ![siber-guvenlik-ne-degildir](https://skorskyfiles.blob.core.windows.net/$web/articles/siber%20g%C3%BCvenlik/siber-guvenlik-ne-degildir.png)
 
