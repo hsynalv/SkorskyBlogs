@@ -3,7 +3,8 @@ ID: "4a9af399-b0ac-423a-b937-a069cfcd9292"
 title: "Siber Güvenliğe İlk adım"
 slug: "siber-guvenlige-ilk-adim"
 description: "siber güvenliğe ilk adım"
-tags: []
+tags:
+  - "cyber-security"
 categories: []
 cover: "cover1.png"
 date: "2022-06-30"
