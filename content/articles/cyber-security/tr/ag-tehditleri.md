@@ -2,7 +2,7 @@
 title: "Ağ Tehditleri"
 slug: "ag-tehditleri"
 tags:
-  - "threat"
+  - "network-threat"
 description: "ag-tehditleri"
 categories:
   - "cyber-security"
