@@ -2,7 +2,7 @@
 title: "Network Layer"
 categories:
 - "Network"
-- "CCNA-1"
+- "Cisco CCNA-1"
 description: "Ağ Katmanı"
 slug: "ag-katmani"
 tags:

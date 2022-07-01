@@ -7,7 +7,7 @@ title: "Topoloji Diyagramları"
 ID: "b08cf121-a883-424d-816c-12f661405026"
 categories:
 - "Network"
-- "CCNA-1"
+- "Cisco CCNA-1"
 slug: "topology-diyagramları"
 cover: "topologies.png"
 date: "2022-06-13 12:00"

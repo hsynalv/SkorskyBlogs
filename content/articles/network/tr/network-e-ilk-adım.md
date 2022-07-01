@@ -5,7 +5,7 @@ tags:
   - "lan-wan"
 categories:
 - "Network"
-- "CCNA-1"
+- "Cisco CCNA-1"
 description: "network'e ilk adım"
 title: "Network'e İlk Adım"
 ID: "d66535f8-4397-4e74-b221-2c2f9189b885"

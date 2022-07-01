@@ -3,7 +3,7 @@ title: "OSI Referans Modeli"
 description: "Daha önceki makalemde anlattığım üzere protokoller bilgisayarların iletişimi için olmazsa olmazdır. Şimdi OSI Referans Modelini daha detaylı şekilde inceleyelim."
 categories:
 - "Network"
-- "CCNA-1"
+- "Cisco CCNA-1"
 slug: "osi-referans-modeli"
 tags:
   - "osi"

@@ -1,7 +1,7 @@
 ---
 categories:
 - "Network"
-- "CCNA-1"
+- "Cisco CCNA-1"
 title: "Data Link Katmanı"
 tags:
   - "osi"

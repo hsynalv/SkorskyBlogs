@@ -8,7 +8,7 @@ description: "Herkese merhabalar, bugün uzun soluklu bir seriye başlıyoruz. E
 title: "İnternet Protokol ve Modelleri"
 categories:
 - "Network"
-- "CCNA-1"
+- "Cisco CCNA-1"
 slug: "internet-protokol-ve-modelleri"
 cover: "internet-protokol.png"
 date: "2022-06-09 19:00"
