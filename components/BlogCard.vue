@@ -34,7 +34,7 @@
 <script>
 export default {
   name: 'BlogCard',
-  props: ["title", "description", "date", "slug", "path", "img", "tags", "currentTag"],
+  props: ["title", "description", "date", "slug", "path", "img", "tags", "currentTag","categories"],
   emits: ['changeCurrentTag'],
   data() {
     return {
@@ -47,7 +47,7 @@ export default {
   },
   computed: {
     isFiltered() {
-      return !this.currentTag || (this.tags && this.tags.includes(this.currentTag));
+      return !this.currentTag || (this.categories && this.categories.includes(this.currentTag));
     },
   },
   methods: {
