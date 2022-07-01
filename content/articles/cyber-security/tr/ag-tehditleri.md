@@ -10,13 +10,13 @@ ID: "f714df12-432e-42c9-be19-3b2ccf5b7e73"
 cover: "ag-tehditleri.png"
 date: "2022-07-02"
 createdAt: 1656693993640
-updatedAt: 1656694242503
+updatedAt: 1656694537104
 
 ---
 Zararlı yazılımlar hakkındaki makalemizden sonra şimdi sıra ağ tehditlerine geldi. En çok bilinen ve kullanılan bazı ağ tehditlerini biraz inceleyelim.
 
 ## Denial of Service (DoS) 
- saldırıları internete bağlı bir bilgisayarın sunmuş olduğu hizmetleri aksatma ya da kaynaklarını tüketerek çalışmasını durdurmak için yapılan en popüler ve tehlikeli saldırı türlerinden biridir. Hizmet reddi saldırısı olarak adlandırılır.
+DoS saldırıları internete bağlı bir bilgisayarın sunmuş olduğu hizmetleri aksatma ya da kaynaklarını tüketerek çalışmasını durdurmak için yapılan en popüler ve tehlikeli saldırı türlerinden biridir. Hizmet reddi saldırısı olarak adlandırılır.
 
 Siber güvenliğin *Gizlilik, Bütünlük ve Erişilebilirlik* ilkelerinden erişilebilirlik durumunu hedef alır. Sadece web sayfalarına yönelik değildir. MAC Flooding, ICMP Smurf, TCP SYN Flood, DHCP Startvation, DNS Flood HTTP GET Flood, SlowHTTP ve Slowloris DoS Ataklarına örnek olabilir.
 
@@ -54,7 +54,7 @@ Bu konunun biraz daha anlaşılır olması açısından bir örnek verelim. Vars
 
 Bu tür saldırılar şirketlerin engelleme gayreti sonucunda son dönemde azalmakta ancak yine de her zaman girdiğimiz sitenin adres satırındaki domainine ve uzantısına dikkat etmemiz gerekebilir.
 
-## Sniffing and Spoofing
+## Sniffing ve Spoofing
 
 Türkçe karışıklarına bakarak çok bir şey anlayamayacağımız iki siber güvenlik terimi ile karşı karşıyayız. sniffing koklama, spoofing ise aldatma demektir. Siber güvenlikte ise sniffing veri yolunu kesmek anlamına gelirken spoofing ise bir saldırı türüdür.
 
@@ -70,7 +70,8 @@ Aktif Sniffing ise, switch cihazlarının kullanıldığı sistemlerde tercih ed
 
 Spoofing (Aldatma) saldırılarında, güvenli olarak görünen kaynaktan paket gönderilerek alıcıyı aldatmaktır. Hedefinde yer alan sistemlerde saldırı yapabilmek için çeşitli yazılımlar kullanır. Birçok spoofing saldırı türü vardır biz ise en çok kullanılan türlerine bakalım.
 
- - **E-Mail Spoofing** ⇒ SMTP açıklarından faydalanarak e mail başlıklarının değiştirilmesiyle yapılır
+ #### **E-Mail Spoofing** 
+ SMTP açıklarından faydalanarak e mail başlıklarının değiştirilmesiyle yapılır
  - **ARP Spoofing** ⇒ ARP Spoofing saldırısı yapacak kişi yerel ağı sahte paketler ile doldurur. Bu aşamada veriler alıcıya ulaşmadan önce saldırgana ulaşır. Bu aşamada saldırgan isterse verileri de bozabilir ya da değiştirebilir. Cihazın sahip olduğu IP adresi saldırı düzenlenen kişinin IP adresine benzer şekilde ayarlanır.
  - **MAC Spoofing** ⇒Switch’in MAC tablosunun manipüle edilmesidir . Saldırganın bağlı olduğu porta, hedefin MAC’ini bildirmesiyle yapılır
  - **DNS Spoofing** ⇒ DNS sunucusundaki önbelleğin manüpile edilmesidir . RR’ların değiştirilerek cevapların yanıltılması ve yönlendirmeyle sonuçlanır
