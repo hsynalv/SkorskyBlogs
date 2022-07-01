@@ -6,6 +6,7 @@ description: "Cisco switch cihazlarına yapılandırmaya başlamak için switch 
 title: "Cisco Switch'e ilk Adım"
 categories:
   - "Switch & Router"
+  - "CCNA-1"
 slug: "cisco-switch-e-ilk-adım"
 ID: "1c86164b-7c68-4f8c-a9ab-c95ce427086b"
 cover: "cover2.jpg"
@@ -27,7 +28,7 @@ Cisco IOS yazılımı bir güvenlik özelliği olarak, yönetim erişimini aşa�
 <span style="color:green">User EXEC Mode (Kullanıcı EXEC Modu)</span>
 
 - Bu mod sadece kısıtlı sayıda temel monitoring (izleme) komutlarına izin verir.
-- Genellikle <em>yalnızca görüntüleme modu</em> veya <em>enable mode</em> olarak adlandırılır.
+- Genellikle <em>yalnızca görüntüleme modu</em veya <em>enable mode</em> olarak adlandırılır.
 - Cihaz yapılandırmasına herhangi bir değişiklik yapılmasına izil verilmez.
 - CLI'da <code>SwitchAdı></code> ile gösterilir. 
 
