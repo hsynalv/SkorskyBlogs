@@ -3,7 +3,8 @@ title: "Ağ Tehditleri"
 slug: "ag-tehditleri"
 tags: []
 description: "ag-tehditleri"
-categories: []
+categories:
+  - "cyber-security"
 ID: "f714df12-432e-42c9-be19-3b2ccf5b7e73"
 cover: "ag-tehditleri.png"
 date: "2022-07-01"
