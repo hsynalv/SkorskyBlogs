@@ -5,7 +5,7 @@ tags:
   - "network-threat"
 description: "ag-tehditleri"
 categories:
-  - "cyber-security"
+  - "Siber Güvenlik"
 ID: "f714df12-432e-42c9-be19-3b2ccf5b7e73"
 cover: "ag-tehditleri.png"
 date: "2022-07-02"
