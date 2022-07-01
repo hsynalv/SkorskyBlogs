@@ -10,7 +10,7 @@ ID: "f714df12-432e-42c9-be19-3b2ccf5b7e73"
 cover: "ag-tehditleri.png"
 date: "2022-07-02"
 createdAt: 1656693993640
-updatedAt: 1656694537104
+updatedAt: 1656694959000
 
 ---
 Zararlı yazılımlar hakkındaki makalemizden sonra şimdi sıra ağ tehditlerine geldi. En çok bilinen ve kullanılan bazı ağ tehditlerini biraz inceleyelim.
@@ -70,13 +70,26 @@ Aktif Sniffing ise, switch cihazlarının kullanıldığı sistemlerde tercih ed
 
 Spoofing (Aldatma) saldırılarında, güvenli olarak görünen kaynaktan paket gönderilerek alıcıyı aldatmaktır. Hedefinde yer alan sistemlerde saldırı yapabilmek için çeşitli yazılımlar kullanır. Birçok spoofing saldırı türü vardır biz ise en çok kullanılan türlerine bakalım.
 
- #### **E-Mail Spoofing** 
+
+<span style="color:red">**E-Mail Spoofing**</span>
  SMTP açıklarından faydalanarak e mail başlıklarının değiştirilmesiyle yapılır
- - **ARP Spoofing** ⇒ ARP Spoofing saldırısı yapacak kişi yerel ağı sahte paketler ile doldurur. Bu aşamada veriler alıcıya ulaşmadan önce saldırgana ulaşır. Bu aşamada saldırgan isterse verileri de bozabilir ya da değiştirebilir. Cihazın sahip olduğu IP adresi saldırı düzenlenen kişinin IP adresine benzer şekilde ayarlanır.
- - **MAC Spoofing** ⇒Switch’in MAC tablosunun manipüle edilmesidir . Saldırganın bağlı olduğu porta, hedefin MAC’ini bildirmesiyle yapılır
- - **DNS Spoofing** ⇒ DNS sunucusundaki önbelleğin manüpile edilmesidir . RR’ların değiştirilerek cevapların yanıltılması ve yönlendirmeyle sonuçlanır
- - **URL Spoofing** ⇒ Farklı bir url adresi gönderilerek gerçekleşir. Eski internet tarayıcılarında işe yarayan bu yöntem, yeni tarayıcılarda işe yaramıyor. Bir saldırgan hedefinde olduğu kişiye benzer bir url linki göndererek eylemini gerçekleştirir.
- -  **IP Spoofing** ⇒ Saldırganların bilgisayara yetkisiz erişim elde etme amacı ile kullanılan bir saldırı yöntemidir. Burada siber saldırganlar kendini gizleyerek saldırıyı gerçekleştirir. Veri paketlerini gönderirken farklı bir IP adresi ile değiştirerek gönderir. Farklı bir bilgisayardan gönderilmiş gibi gözükmesini sağlar.
+
+
+<span style="color:red">**ARP Spoofing** </span>
+ARP Spoofing saldırısı yapacak kişi yerel ağı sahte paketler ile doldurur. Bu aşamada veriler alıcıya ulaşmadan önce saldırgana ulaşır. Bu aşamada saldırgan isterse verileri de bozabilir ya da değiştirebilir. Cihazın sahip olduğu IP adresi saldırı düzenlenen kişinin IP adresine benzer şekilde ayarlanır.
+ 
+
+<span style="color:red">**MAC Spoofing** </span>
+Switch’in MAC tablosunun manipüle edilmesidir . Saldırganın bağlı olduğu porta, hedefin MAC’ini bildirmesiyle yapılır
+
+<span style="color:red">**DNS Spoofing** </span>
+DNS sunucusundaki önbelleğin manüpile edilmesidir . RR’ların değiştirilerek cevapların yanıltılması ve yönlendirmeyle sonuçlanır
+
+<span style="color:red">**URL Spoofing** </span>
+Farklı bir url adresi gönderilerek gerçekleşir. Eski internet tarayıcılarında işe yarayan bu yöntem, yeni tarayıcılarda işe yaramıyor. Bir saldırgan hedefinde olduğu kişiye benzer bir url linki göndererek eylemini gerçekleştirir.
+
+<span style="color:red">**IP Spoofing** </span>
+Saldırganların bilgisayara yetkisiz erişim elde etme amacı ile kullanılan bir saldırı yöntemidir. Burada siber saldırganlar kendini gizleyerek saldırıyı gerçekleştirir. Veri paketlerini gönderirken farklı bir IP adresi ile değiştirerek gönderir. Farklı bir bilgisayardan gönderilmiş gibi gözükmesini sağlar.
 Saldırı yapılan bilgisayar gerçek kaynağı göremez. Bu IP Spoofing saldırıları tüm protokollerde gerçekleştirilebilir. Sadece TCP protokollerini kullanan uygulamalarda IP Spoofing saldırısı gerçekleştirilemez.
 UDP protokolünü kullanan uygulamalarda rahat bir şekilde saldırı girişiminde bulunulabilir. Bunun nedeni ise, TCP protokolünde üçlü el sıkışmasının zorunlu hale gelmesidir.
 
