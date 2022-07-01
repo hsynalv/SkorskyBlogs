@@ -1,7 +1,7 @@
 ---
 slug: "zararli-yazilimlar"
 categories:
-  - "cyber-security"
+  - "Siber Güvenlik"
 ID: "4b73cc67-ecb9-4ccc-9498-218af735459c"
 description: "network-tehditleri"
 title: "Zararlı Yazılımlar"
