@@ -8,8 +8,9 @@ categories:
   - "cyber-security"
 ID: "f714df12-432e-42c9-be19-3b2ccf5b7e73"
 cover: "ag-tehditleri.png"
-date: "2022-07-01"
+date: "2022-07-02"
 createdAt: 1656693993640
+updatedAt: 1656694242503
 
 ---
 Zararlı yazılımlar hakkındaki makalemizden sonra şimdi sıra ağ tehditlerine geldi. En çok bilinen ve kullanılan bazı ağ tehditlerini biraz inceleyelim.
