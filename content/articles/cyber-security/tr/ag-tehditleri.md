@@ -1,7 +1,8 @@
 ---
 title: "Ağ Tehditleri"
 slug: "ag-tehditleri"
-tags: []
+tags:
+  - "threat"
 description: "ag-tehditleri"
 categories:
   - "cyber-security"
