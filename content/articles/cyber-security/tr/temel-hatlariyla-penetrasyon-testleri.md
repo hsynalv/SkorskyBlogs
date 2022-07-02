@@ -1,7 +1,8 @@
 ---
 tags:
   - "penetrasyon-testing"
-categories: []
+categories:
+  - "Siber Güvenlik"
 description: "Temel Hatlarıyla Penetrasyon Testleri"
 ID: "b9e98045-2b55-4146-9428-5d05f6f19882"
 slug: "temel-hatlariyla-penetrasyon-testleri"
