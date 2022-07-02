@@ -10,6 +10,7 @@ title: "Temel Hatlarıyla Penetrasyon Testleri"
 cover: "penetrasyon-testi.png"
 date: "2022-07-03"
 createdAt: 1656781357808
+updatedAt: 1656781638660
 
 ---
 ## Penetrasyon - Sızma Testi Nedir?
@@ -56,9 +57,10 @@ Görüldüğü üzere modellerde her ne kadar benzerlik olsa da bazı alanlar fa
 
 ## Cyber Kill Chain - Bir Saldırının Yaşam Döngüsü
 
-Siber saldırıları analiz edebilmek amacıyla çeşitli modellerden birisi olan ve Locheed Martin firması tarafından geliştirilen cyber kill chain keşif aşamasından saldırı aşamasına kadar tanımlayan ve bu saldırıyı gerçekleştirmek veya önlemek amacıyla oluşturulan 7 aşamalı bir modeldir.
+Siber saldırıları analiz edebilmek amacıyla çeşitli modellerden birisi olan  cyber kill chain keşif aşamasından saldırı aşamasına kadar tanımlayan ve bu saldırıyı gerçekleştirmek veya önlemek amacıyla oluşturulan 7 aşamalı bir modeldir.
 
-Askeri terminolojideki Ölüm Zinciri ’nden esinlenerek Lockheed Martin tarafından geliştirilmiştir Aşağıdaki aşamalardan oluşur.![cyber-kill-chain](https://skorskyfiles.blob.core.windows.net/$web/articles/penetrasyon-testleri/cyber-kill-chain.png)
+Askeri terminolojideki Ölüm Zinciri ’nden esinlenerek Lockheed Martin tarafından geliştirilmiştir Aşağıdaki aşamalardan oluşur.
+![cyber-kill-chain](https://skorskyfiles.blob.core.windows.net/$web/articles/penetrasyon-testleri/cyber-kill-chain.png)
 
 1. **Reconnaissance**
 
