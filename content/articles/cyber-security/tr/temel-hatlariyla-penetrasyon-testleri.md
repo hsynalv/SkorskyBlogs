@@ -10,7 +10,7 @@ title: "Temel Hatlarıyla Penetrasyon Testleri"
 cover: "penetrasyon-testi.png"
 date: "2022-07-03"
 createdAt: 1656781357808
-updatedAt: 1656781638660
+updatedAt: 1656781718369
 
 ---
 ## Penetrasyon - Sızma Testi Nedir?
@@ -44,6 +44,8 @@ Sızma testleri yapılırken bazı modeller izlenerek testin karmaşıklaşması
  4. **Exploitation** ⇒ Bulunan güvenlik açıklarının sömürülmesi denenir. Başarılı olunursa sisteme giriş de sağlanmış olur.
  5. **Post Ecploitation** ⇒ Sömürünün sürdürülebilirliği için diğer sistemlerde de kalıcılığı amaçlanır. Bu sebeple sistem içerisinde yayılmaya çalışılır.
  6. **Repoting** ⇒ Hedefin tüm aşamalardaki güçlü ve zayıf yönlerinin ayrıntılı olarak raporlanmasıdır
+
+İlk modelimiz bu şekildeydi, şimdi diğer bir modelimize bakalım.
 
 ![penetrasyo2](https://skorskyfiles.blob.core.windows.net/$web/articles/penetrasyon-testleri/penetrasyon2.png)
 
