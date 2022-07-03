@@ -16,8 +16,7 @@
     </p>
     <br/>
     <p>
-      Unutmadan bu site de bir Nuxt.js ve Vue.js ürünüdür. Ayrıca
-      <a href="https://contentrain.io/">Contentrain</a> için <a href="https://lanista.com.tr/">Lanista Software</a>' e teşekkür ederim...
+      Unutmadan bu site de bir Nuxt.js ve Vue.js ürünüdür.
     </p>
 
 
