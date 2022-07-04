@@ -40,7 +40,7 @@
 
 <script>
 import siteMetaInfo from "@/data/sitemetainfo";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "~/components/Common/HeroSection";
 
 export default {
   components: {HeroSection},

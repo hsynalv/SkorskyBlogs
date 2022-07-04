@@ -7,7 +7,7 @@
           :href="siteMetadata.personalWebSite"
           class="text-sm text-gray-500 transition hover:text-gray-600"
         >
-          <img class="transition-transform hover:scale-110 w-8 h-8" src="~assets/icon/glob.svg"/>
+          <img class="transition-transform hover:scale-110 w-8 h-8" src="../assets/icon/glob.svg"/>
         </a>
         <a
           class="text-sm text-gray-500 transition hover:text-gray-600"
@@ -15,21 +15,21 @@
           rel="nofollow noopener noreferrer"
           :href="siteMetadata.github"
           ><span class="sr-only">github</span>
-          <img class="transition-transform hover:scale-110 w-8 h-8" src="~assets/icon/github_new.svg" /> </a
+          <img class="transition-transform hover:scale-110 w-8 h-8" src="../assets/icon/github_new.svg" /> </a
         ><a
           class="text-sm text-gray-500 transition hover:text-gray-600"
           target="_blank"
           rel="noopener noreferrer"
           :href="siteMetadata.linkedin"
           ><span class="sr-only">Linkedin</span>
-          <img class="transition-transform hover:scale-110 w-8 h-8" src="~assets/icon/linkeding.svg" /> </a
+          <img class="transition-transform hover:scale-110 w-8 h-8" src="../assets/icon/linkeding.svg" /> </a
         >
         <a
           target="_blank" rel="nofollow noopener noreferrer"
           :href="siteMetadata.twitter + siteMetadata.twitter_user"
           class="text-sm text-gray-500 transition hover:text-gray-600"
         >
-          <img class="transition-transform hover:scale-110 w-8 h-8" src="~assets/icon/twitter.svg"/>
+          <img class="transition-transform hover:scale-110 w-8 h-8" src="../assets/icon/twitter.svg"/>
         </a>
 
       </div>
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import siteMetaInfo from "@/data/sitemetainfo";
+import siteMetaInfo from "~/data/sitemetainfo";
 export default {
   data() {
     return {

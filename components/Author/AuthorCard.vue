@@ -47,12 +47,12 @@
 </template>
 
 <script>
-import Mail from "../assets/icon/mail.svg?inline";
-import Glob from "../assets/icon/glob.svg?inline";
-import Twitter from "../assets/icon/twitter.svg?inline"
-import Github from "../assets/icon/github_new.svg?inline";
-import Linkedin from "../assets/icon/linkeding.svg?inline"
-import siteMetaInfo from "@/data/sitemetainfo";
+import Mail from "~/assets/icon/mail.svg?inline";
+import Glob from "~/assets/icon/glob.svg?inline";
+import Twitter from "~/assets/icon/twitter.svg?inline"
+import Github from "~/assets/icon/github_new.svg?inline";
+import Linkedin from "~/assets/icon/linkeding.svg?inline"
+import siteMetaInfo from "~/data/sitemetainfo";
 export default {
   components: { Mail, Glob, Github, Linkedin, Twitter },
   data: () => {

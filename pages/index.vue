@@ -202,13 +202,11 @@
 
 <script>
 import siteMetaInfo from "@/data/sitemetainfo";
-import BlogCard from "@/components/BlogCard";
-import BlogCardHorizontal from "@/components/BlogCardHorizontal";
-import HeroSection from "@/components/HeroSection";
-import dynamicLetters from "~/plugins/dynamic-letters";
+import BlogCard from "~/components/Blog/BlogCard";
+import BlogCardHorizontal from "~/components/Blog/BlogCardHorizontal";
+import HeroSection from "~/components/Common/HeroSection";
 import VueTypedJs from "vue-typed-js"
 import Vue from "vue";
-import Banner from "../components/Banner.vue";
 
 Vue.use(VueTypedJs)
 
@@ -217,17 +215,13 @@ export default {
     HeroSection,
     BlogCard,
     BlogCardHorizontal,
-    Banner
-},
+    },
   data() {
     return {
       siteMetaInfo: siteMetaInfo,
     };
   },
 
-  mounted() {
-    dynamicLetters();
-  },
 
   async asyncData({ $content, params, route }) {
     const articles = await $content("articles", {deep: true}, params.slug)

@@ -129,7 +129,7 @@
 <script>
 import Prism from "~/plugins/prism";
 import siteMetaInfo from "@/data/sitemetainfo";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "~/components/Common/HeroSection";
 
 export default {
   data() {
