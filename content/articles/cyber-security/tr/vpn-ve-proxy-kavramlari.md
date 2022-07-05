@@ -7,6 +7,7 @@ ID: "2d388dec-28cb-488e-ba0d-c061510902a7"
 title: "VPN ve Proxy Kavramları"
 tags:
   - "VPn"
+  - "Proxy"
 cover: "vpn-proxy.png"
 date: "2022-07-05 12:00"
 createdAt: 1657048473930
