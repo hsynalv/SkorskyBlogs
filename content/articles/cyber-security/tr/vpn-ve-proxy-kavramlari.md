@@ -12,7 +12,7 @@ tags:
 cover: "vpn-proxy.png"
 date: "2022-07-05 12:00"
 createdAt: 1657048473930
-updatedAt: 1657059517401
+updatedAt: 1657059697547
 
 ---
 ## Proxy Nedir?
@@ -30,7 +30,7 @@ Proxy ile sağlanan bağlantılarda veri iletişimi **şifresiz** olarak gerçek
 
 Bilgisayarınızın adresi İnternet Protokolü veya IP adresi olarak bilinir. Bu adres bilgisayarınıza özgüdür ve internetin hangi bilgisayara doğru verileri göndereceğini belirleme yöntemidir.
 
-Proxy sunucuları, yalnızca bilgisayarınız tarafından bilinen kendi benzersiz IP adreslerine sahiptir. İnternet üzerinden bir istek gönderdiğinizde (bir web sayfasını açmak gibi), istek önce  proxy sunucusuna* gider. Proxy sunucusu daha sonra bu talebi internet üzerinden gönderir, yanıtı toplar ve verileri size iletir.
+Proxy sunucuları, yalnızca bilgisayarınız tarafından bilinen kendi benzersiz IP adreslerine sahiptir. İnternet üzerinden bir istek gönderdiğinizde (bir web sayfasını açmak gibi), istek önce  proxy sunucusuna gider. Proxy sunucusu daha sonra bu talebi internet üzerinden gönderir, yanıtı toplar ve verileri size iletir.
 
 ### Proxy Türleri Nelerdir?
 
@@ -42,7 +42,7 @@ Proxy sunucuları çevrimiçi gizliliğinizi sağlama türlerine göre üçe ayr
 
 Bağlantı türüne göre de iki farklı proxy sunucusu bulunmaktadır:
 
-1.  **HTTP (Web) Proxy Sunucuları:**  Genelde daha hızlı internet erişimi ve IP adresi gizleme amacı ile kullanılmaktadır. Sadece web sitelerini ziyaret etmek için kullanılır. HTTP protokolü dışında kalan (örneğin  [FTP](https://www.niobehosting.com/blog/ftp/)  protokolü gibi) hiçbir protokole bağlanmayı desteklemez. Yasaklı sitelere bağlanmak için en çok tercih edilen proxy sunucusu türüdür. Transparent, anonim ya da elit versiyonları kullanılabilir.
+1.  **HTTP (Web) Proxy Sunucuları:**  Genelde daha hızlı internet erişimi ve IP adresi gizleme amacı ile kullanılmaktadır. Sadece web sitelerini ziyaret etmek için kullanılır. HTTP protokolü dışında kalan (örneğin FTP protokolü gibi) hiçbir protokole bağlanmayı desteklemez. Yasaklı sitelere bağlanmak için en çok tercih edilen proxy sunucusu türüdür. Transparent, anonim ya da elit versiyonları kullanılabilir.
 2.  **SOCKS Proxy Sunucuları:** FTP, SMTP gibi protokolleri destekler. HTTP proxy sunucularına göre daha yavaş çalışmaktadır. Bu sebeple çevrimiçi gerçek zamanlı oyun oynamak için uygun değildir. SMTP desteği olmasına rağmen, e-posta trafiğinde kullanmak için tavsiye edilmez.
 
 ### **Proxy Gizlilik Sağlar Mı?**
