@@ -1,6 +1,7 @@
 ---
 slug: "vpn-ve-proxy-kavramlari"
-categories: []
+categories:
+  - "Siber Güvenlik"
 description: "vpn-ve-proxy-kavramlari"
 ID: "2d388dec-28cb-488e-ba0d-c061510902a7"
 title: "VPN ve Proxy Kavramları"
