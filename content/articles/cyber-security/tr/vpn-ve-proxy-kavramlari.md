@@ -12,12 +12,13 @@ tags:
 cover: "vpn-proxy.png"
 date: "2022-07-05 12:00"
 createdAt: 1657048473930
+updatedAt: 1657048790241
 
 ---
 ## Proxy Nedir?
 Proxy kavramını Türkçe'ye çevirmek istersek karşımıza *"Vekil Sunucu"* kavramı çıkacaktır. Türkçe anlamındaki gibi bizim yerimize vekil olarak çalışır yani bizi temsil eder. Son kullanıcı ile çevrimiçi bir kaynak arasında bir bağlantı kurarak bizi temsil eder, aracılık görevi görür. 
 
-![proxy](https://skorskyfiles.blob.core.windows.net/$web/articles/proxy-vpn/VPN.png)
+![proxy](https://skorskyfiles.blob.core.windows.net/$web/articles/proxy-vpn/Proxy.jpg)
 
 Doğrudan bir web sitesini ziyaret ettiğimiz zaman  kendimizle ilgili bazı bilgileri (kullandığımız bilgisayar, konum, IP adresi) içeren bir web isteği göndeririz. Buna karşılık olarak ise web kaynağı bize talep ettiğimiz içeriği sağlamakla yükümlüdür.
 
@@ -64,7 +65,7 @@ Bu tünel içerisinden geçen veri şifrelendiği için araya giren veya girmeye
 
 Ancak değinmemiz gereken bir nokta var ki VPN trafiği VPN sunucusuna kadar okunulabilir değildir. Biraz daha açmak gerekirse VPN kullanarak internete çıktığınızı düşünecek olursak iki uç arasında şifrelenmiş bir tünelde veri trafiği sağlanır. Bu veri trafiği kullandığınız VPN sunucusu üzerinden geçerek ilerler. Sıkıntı da tam olarak burada başlayabilir. Sunucu verileri şifreleyebildiği gibi şifrelenmiş veriyi çözerek okuyabilir hatta loglama ile kayıt altına alabilir. Bu nedenle kullandığınız VPN sunucusuna dikkat etmekte yarar olacaktır.
 
-### VPN nasıl çalışır?
+### VPN Nasıl Çalışır?
 
 VPN, IP adresinizi VPN ana bilgisayarı tarafından yönetilen özel olarak yapılandırılmış bir uzak sunucu üzerinden yeniden yönlendirerek maskeler. Yani siz internette VPN ile gezinirken VPN sunucusu verilerinizin kaynağı olur. Bu, İnternet Servis Sağlayıcınızın (ISP) ve üçüncü kişilerin ziyaret ettiğiniz web sitelerini veya gönderdiğiniz ve aldığınız verileri göremediği anlamına gelir. VPN, bütün verilerinizi "anlaşılamaz" hâle getiren bir filtreymiş gibi çalışır. Herhangi biri bu verileri ele geçirse bile kullanamaz.
 
