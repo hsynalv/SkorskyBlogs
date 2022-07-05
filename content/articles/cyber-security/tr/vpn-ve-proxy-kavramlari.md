@@ -12,7 +12,7 @@ tags:
 cover: "vpn-proxy.png"
 date: "2022-07-05 12:00"
 createdAt: 1657048473930
-updatedAt: 1657059442998
+updatedAt: 1657059517401
 
 ---
 ## Proxy Nedir?
@@ -24,7 +24,7 @@ Doğrudan bir web sitesini ziyaret ettiğimiz zaman  kendimizle ilgili bazı bil
 
 Proxy tabanlı bir bağlantı, gönderdiğiniz web talepleri ve web sitesinden geri alacağınız veriler için bir tür ağ geçidi sağlar. Proxy'ler web isteklerinizi gizleyebilir veya web sitesindeki içeriği filtreleyebilir. 
 
-Proxy ile sağlanan bağlantılarda veri iletişimi **şifresiz** olarak gerçekleşir. **anonim olarak internette surf yapamazsınız** (bu vpn ile de tamamen mümkün değildir) Kullandığınız proxy sunucuları gizlilik taahhüt etse bile proxy sunucuna giderken gerçekleşen ağ trafiği ISP veya üçüncü bir kişi tarafından okunulabilir.
+Proxy ile sağlanan bağlantılarda veri iletişimi **şifresiz** olarak gerçekleşir. Tam olarak gizlilik ve  anonimlik sağlamaz. Kullandığınız proxy sunucuları gizlilik taahhüt etse bile proxy sunucuna giderken gerçekleşen ağ trafiği ISP veya üçüncü bir kişi tarafından okunulabilir.
 
 ### Proxy Sunucu Nasıl Çalışır?
 
