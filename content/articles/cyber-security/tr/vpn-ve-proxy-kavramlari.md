@@ -12,7 +12,7 @@ tags:
 cover: "vpn-proxy.png"
 date: "2022-07-05 12:00"
 createdAt: 1657048473930
-updatedAt: 1657048790241
+updatedAt: 1657059442998
 
 ---
 ## Proxy Nedir?
@@ -20,7 +20,7 @@ Proxy kavramını Türkçe'ye çevirmek istersek karşımıza *"Vekil Sunucu"* k
 
 ![proxy](https://skorskyfiles.blob.core.windows.net/$web/articles/proxy-vpn/Proxy.jpg)
 
-Doğrudan bir web sitesini ziyaret ettiğimiz zaman  kendimizle ilgili bazı bilgileri (kullandığımız bilgisayar, konum, IP adresi) içeren bir web isteği göndeririz. Buna karşılık olarak ise web kaynağı bize talep ettiğimiz içeriği sağlamakla yükümlüdür.
+Doğrudan bir web sitesini ziyaret ettiğimiz zaman  kendimizle ilgili bazı bilgileri (kullandığımız bilgisayar, konum, IP adresi gibi) içeren bir web isteği göndeririz. Buna karşılık olarak ise web kaynağı bize talep ettiğimiz içeriği sağlamakla yükümlüdür.
 
 Proxy tabanlı bir bağlantı, gönderdiğiniz web talepleri ve web sitesinden geri alacağınız veriler için bir tür ağ geçidi sağlar. Proxy'ler web isteklerinizi gizleyebilir veya web sitesindeki içeriği filtreleyebilir. 
 
