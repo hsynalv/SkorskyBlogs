@@ -13,12 +13,12 @@ ID: "6849cc65-360b-46ca-afa0-006f3ee0dd81"
 cover: "cover1.jpg"
 date: "2022-06-09 12:00"
 createdAt: 1654728343247
-updatedAt: 1654900801500
+updatedAt: 1656981134985
 
 ---
 ## Switch Adını Değiştirelim
 
-Bir switch yapılandırmaya başlarken ilk işimiz switch adını değiştirmek olmalıdır. Varsayılan olarak Cisco tarafından cihazlara <em>Switch</em> adı atanır. Sorun da tam olarak burada başlar. Bir ağda isim atanmamış tüm switchlerin adı aynı olduğunda uzaktan SSH ya da Telnet ile bağlanılan switchin hangi switch olduğunu anlamak karmaşık hale gelebilir.
+Bir switch yapılandırmaya başlarken ilk işimiz switch adını değiştirmek olmalıdır. Varsayılan olarak Cisco tarafından cihazlara <em>Switch</em> adı atanır. Sorun da tam olarak burada başlar. Bir ağda isim atanmamış tüm switchlerin adı aynı olduğunda uzaktan SSH veya Telnet ile bağlanılan switchin hangi switch olduğunu anlamak karmaşık hale gelebilir.
 
 Varsayılan isim, daha açıklayıcı bir isimle değiştirilmelidir. İsimler akıllıca seçildiğinde, ağ cihazlarını hatırlamak, belgelemek ve tanımlamak daha kolay olacaktır. Hostlar için bazı önemli isimlendirme yönergeleri şunlardır:
 
