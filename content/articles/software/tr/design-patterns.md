@@ -3,7 +3,8 @@ ID: "ad28943f-266d-44ca-ad76-09319cf63b36"
 title: "Design Patterns"
 slug: "design-patterns"
 tags: []
-categories: []
+categories:
+  - "Software"
 description: "design-patterns"
 date: "2022-07-07 12:00"
 cover: "design-patterns.jpg"
