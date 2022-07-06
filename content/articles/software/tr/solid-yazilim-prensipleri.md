@@ -2,7 +2,9 @@
 title: "SOLID Yazılım Prensipleri"
 ID: "991bda4b-8705-4324-acad-a0595b0507e7"
 description: "SOLID Yazılım Prensipleri"
-tags: []
+tags:
+  - "design-patterns"
+  - "solid"
 slug: "solid-yazilim-prensipleri"
 categories:
   - "Software"
