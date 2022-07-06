@@ -25,7 +25,7 @@ export default {
       { hid: "description", name: "description", content: "Yaptığım şeyler, çalışmak, üretmek ve her gün daha fazla öğrenmek..." },
       { name: "format-detection", content: "telephone=no" },
       { hid: "og:type", name: "og:type", content: "website" },
-      { hid: "og:title", name: "og:title", content: "Eventually coding" },
+      { hid: "og:title", name: "og:title", content: "Skorsky Blog" },
       { hid: "og:description", name: "og:description", content: "Yaptığım şeyler, çalışmak, üretmek ve her gün daha fazla öğrenmek..." },
       { hid: "og:url", name: "og:url", content: "https://skorskyblog.netlify.app/" },
       { name: "og:site_name", content: "Skorsky Blog" },
