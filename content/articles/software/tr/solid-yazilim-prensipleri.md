@@ -4,7 +4,8 @@ ID: "991bda4b-8705-4324-acad-a0595b0507e7"
 description: "SOLID Yazılım Prensipleri"
 tags: []
 slug: "solid-yazilim-prensipleri"
-categories: []
+categories:
+  - "Software"
 date: "2022-07-06 12:00"
 cover: "solid.png"
 createdAt: 1657068092424
